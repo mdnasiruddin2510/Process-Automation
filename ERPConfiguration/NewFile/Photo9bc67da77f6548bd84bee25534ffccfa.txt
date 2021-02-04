@@ -1,0 +1,36 @@
+delete  from CashOperation where TrDate >'2020-02-08 23:59:59.999'
+
+delete from cashreceiptsubdetails where cashreceiptno in 
+(select receiptno  from CashReceipt where receiptDate>'2020-02-08 23:59:59.999')
+delete  from CashReceipt where receiptDate>'2020-02-08 23:59:59.999'
+
+delete from deposit where DepositDate>'2020-02-08 23:59:59.999'
+
+delete from expenseSubdetails where expenseno in (select ExpenseNo from expense where remarks is null)
+delete  from expense where remarks is null
+
+delete from transactionlog where trandatetime>'2020-02-08 23:59:59.999'
+delete from vounoassign where assignDt>'2020-02-08 23:59:59.999'
+
+delete from SalesDetail where salesmainid in (select salesmainid from SalesMain where saledate>'2020-02-08 23:59:59.999')
+delete  from SalesMain where saledate>'2020-02-08 23:59:59.999'
+
+delete from receiveDetails where rcvno in (select  rcvno from receiveMain where rcvdate>'2020-02-08 23:59:59.999')
+delete  from receiveMain where rcvdate>'2020-02-08 23:59:59.999'
+
+delete from IssueDetails where issueno in (select IssueNo from IssueMain where issuedate>'2020-02-08 23:59:59.999')
+delete  from IssueMain where issuedate>'2020-02-08 23:59:59.999'
+
+delete from TVchrDetail where VchrNo in (select VchrNo from TVchrMain where VDate>'2020-02-08 23:59:59.999')
+delete from TVchrMain where VDate>'2020-02-08 23:59:59.999'
+
+delete from PVchrTrack where VchrMainId in (select PVchrMainId from PVchrMain where VDate>'2020-02-08 23:59:59.999')
+delete from PVchrMainExt where VchrNo in (select VchrNo from PVchrMain where VDate>'2020-02-08 23:59:59.999')
+delete from PVchrDetail where VchrNo in (select VchrNo from PVchrMain where VDate>'2020-02-08 23:59:59.999')
+delete  from PVchrMain where VDate>'2020-02-08 23:59:59.999'
+
+delete from VchrTrack where VchrMainId in (select VchrMainId from VchrMain where VDate>'2020-02-08 23:59:59.999' and VDate not in ('2020-02-17'))
+delete from VchrMainExt  where VchrNo in (select VchrNo from VchrMain where VDate>'2020-02-08 23:59:59.999' and VDate not in ('2020-02-17'))
+delete from VchrDetail where VchrNo in (select VchrNo from VchrMain where VDate>'2020-02-08 23:59:59.999' and VDate not in ('2020-02-17'))
+delete from VchrMain where VDate>'2020-02-08 23:59:59.999' and VDate not in ('2020-02-17')
+

@@ -1,0 +1,680 @@
+﻿@model App.Domain.ViewModel.LocationVM
+@{
+    ViewBag.Title = "Location";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /*table.dataTable.select tbody tr,
+    table.dataTable thead th:first-child {
+        cursor: pointer;
+    }
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    .col-md-12 {
+        padding: 0 !important;
+    }
+
+    .required:after {
+        content: " *";
+        font-weight: bold;
+        color: red;
+    }*/
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 13px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove;
+    }
+
+    legend {
+        display: block;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: none;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important;text-decoration:none;">Location</text>
+                    </h3>
+                </div>
+                <fieldset>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Location Code</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="LocCode" class="form-control" />
+                                @*@Html.TextBoxFor(x => x.LocCode, new { @class = "form-control" })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Location Name</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="LocName" class="form-control" />
+                                @*@Html.TextBoxFor(x => x.LocName, new { @class = "form-control" })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Branch type</label>
+                            <div class="input-group form-group col-md-8">
+                                @*<input type="text" id="BranchType" class="form-control" />*@
+                                @*@Html.DropDownListFor(x => x.BranchType, null, "Search Branch", new { @class = "form-control select2*", @Value = ViewBag.BranchType })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="text-align:end">
+                        @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                        *@
+                        <input type="button" value="Add" class="btn btn-primary" id="btnSaveLocation" style="width:100px; margin-right:42px" />
+                        <input type="button" class="btn btn-primary button" value="Update" id="btnUpdateLocation" style="margin-right:0px" />
+                        @*
+                            </div>*@
+                    </div>
+                    <div class="col-sm-12 col-md-12" style="margin-top: 10px; margin-bottom: 10px;">
+                        <div class="row col-sm-12 col-md-12" style="border:1px solid; border-color:#adcceb; width:100%">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12" style="padding:1px 18px 1px 18px">
+                                    <br />
+                                    <table class="table table-bordered table-responsive" id="Add-datatable" style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th width="10%">Id</th>
+                                                <th width="10%">Location&nbsp;Code</th>
+                                                <th width="5%">Location&nbsp;Name</th>
+                                               
+                                                <th width="5%">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbodyId"></tbody>
+                                    </table>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="text-align:end">
+                        @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                        *@
+                        <input type="button" value="Preview" class="btn btn-primary" id="btnpreview" style="width:100px; margin-right:0px" />
+                        <input type="button" value="Print" class="btn btn-primary" id="btnprint" style="width:100px; margin-right:9px" />
+                        @*
+                            </div>*@
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+}
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+    <script>$("#BranchType").select2()</script>
+    
+<script>
+    /////////////////////
+    @*function loadGridByVNo() {
+        $.ajax({
+            url: '@Url.Action("GetAllDataForLocation", "Location")',
+            contentType: "application/json;charset=utf-8",
+            data: { LocCode: $("#LocCode option:selected").val() },
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+
+                if (data.data.length >= 0) {
+                    var table = $('#Add-datatable').DataTable();
+                    table.clear();
+                    table.rows.add(data.data).draw();
+
+
+                }
+
+            }
+        });
+    }*@
+    
+    var table = $("#Add-datatable").DataTable({
+        "scrollX": true,
+        "ajax": "../Location/GetAllDataForLocation",
+        "columns": [
+                   { "data": null, "bSortable": false },
+                   { "data": "LocCode" },
+                   { "data": "LocName" },
+                    //{ "data": "BranchType" }, 
+
+                   {
+                       mRender: function (data, type, row) {
+                           return '<a href="#" id="edit" class="btn btn-default">'
+                                   + '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>&ensp;&ensp;'
+                           + '<a href="#" class="on-default remove-row deleteSup largeSpace" data-id="1" id="deleteUsr" value="' + Id + '">'
+                           + ' <i class="glyphicon glyphicon-trash"></i> </a>'
+                       }
+                   },
+        ],
+        "fnCreatedRow": function (row, data, index) {
+            $('td', row).eq(0).html(index + 1);
+        }
+
+
+    });
+    //////////////
+
+    $(document).keypress(function (e) {
+        if (e.which == 13) {
+            e.preventDefault();
+        }
+
+    })
+
+    $(".select2").select2({
+        allowClear: true
+    });
+
+
+    jQuery(".datePage").datepicker({
+        autoclose: true,
+        todayHighlight: true,
+        format: 'mm/dd/yyyy',
+        changeMonth: true,
+        changeYear: true
+    });
+
+
+    $("#btnUpdateLocation").hide();
+    //$("#dvbtnAddRights").show();
+    //$("#dvdtFormProcess").hide();
+
+
+    var UsrInfo = {
+
+        LocCode: "",
+        LocName: "",
+        BranchType: ""
+
+    };
+
+
+   
+
+    $('body').on('click', '#edit', function () {
+
+        var data = table.row($(this).closest('tr')).data();
+
+        var UserID = data.UserID;
+        //var GroupName = data.GroupName;
+
+        //rows_selected = [];
+
+        //$("#dvbtnAddRights").hide();
+        //$("#dvdtFormProcess").show();
+
+        $.ajax({
+            url: '@Url.Action("GetLocationByID", "Location")',
+            contentType: "application/json;charset=utf-8",
+            data: { UserID: UserID },
+            type: "GET",
+            dataType: 'json',
+            success: function (data) {
+
+
+                if (data == 0) {
+
+                    swal({
+                        title: "Sorry!",
+                        text: "An Error Occured During Load!",
+                        type: "warning"
+                    });
+
+                    $("#btnSaveLocation").show();
+                    $("#btnUpdateLocation").hide();
+
+                    //$("#dvbtnAddRights").hide();
+                    //$("#dvdtFormProcess").show();
+
+                    //Usertable.search('').draw();
+                    //Usertable.clear().draw();
+
+
+                }
+                else {
+
+
+                    if (!jQuery.isEmptyObject(data)) {
+
+
+                        data = $.parseJSON(data);
+                        //var UIG = data.SecUserInfos;
+
+                        //if (UIG != null && UIG.length > 0) {
+
+                        //    $("#dvbtnAddRights").hide();
+                        //    $("#dvdtFormProcess").show();
+
+                        //    $.each(data.SecUserInfos, function (key, item) {
+                        //        rows_selected.push(item.FormProcessID);
+                        //    });
+
+                        $("#btnSaveLocation").hide();
+                        $("#btnUpdateLocation").show();
+                        //}
+
+
+
+                        //Usertable.clear();
+                        //Usertable.rows.add(data).draw();
+
+                        setUsrInfoObj(data);
+                        setUsrInfoFieldData(data);
+
+                    }
+                    else {
+                        //$("#dvbtnAddRights").show();
+                        //$("#dvdtFormProcess").hide();
+
+                        $("#btnSaveLocation").show();
+                        $("#btnUpdateLocation").hide();
+                    }
+
+                   
+
+
+                    }
+
+            }
+        });
+
+    });
+
+
+    $(document).on("click", "#deleteUsr", function () {
+        var value = $(this).attr("value");
+        swal({
+            title: "Are you sure?",
+            text: "You will not be able to recover this data!",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Yes, delete it!",
+            closeOnConfirm: false,
+            closeOnCancel: true
+        },
+            function () {
+                $.ajax({
+                    url: '@Url.Action("DeleteSecUserInfo", "SecUserInfo")',
+                    contentType: "application/json;charset=utf-8",
+                    data: { UserID: value },
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function (datas) {
+
+                        if (datas == 0 || datas == 2) {
+                            swal("Sorry!! Failed to delete this data.", "fail");
+                        }
+                        else if (datas == 1) {
+                            swal({
+                                title: "Ok",
+                                text: "Sucessfully Delete!",
+                                type: "success"
+                            }, function () {
+                                clearUsrInfoControls();
+                            });
+                        }
+                        else if (datas == "D") {
+
+                            swal({
+                                title: "Sorry",
+                                text: "No Delete Permission for this User",
+                                type: "warning"
+                            });
+
+                        }
+
+                    },
+                    error: function (datas) {
+                        swal("Sorry!! Failed to delete this data.", "fail")
+                    }
+                });
+            });
+    });
+
+    function validateUsrInfOnSave(validUsrInf) {
+
+        if (!validUsrInf.UserName.trim().length) {
+            return "UserName is required.";
+        }
+        if (!validUsrInf.Password.trim().length) {
+            return "Password is required.";
+        }
+        if (!validUsrInf.ConfPassword.trim().length) {
+            return "Confirm Password is required.";
+        }
+
+        return "";
+    }
+
+    function setUsrInfo() {
+
+        //UsrInfo.UserID = $("#UserID").val();
+        UsrInfo.UserName = $("#UserName").val();
+        UsrInfo.Password = $("#Password").val();
+        UsrInfo.ConfPassword = $("#ConfPassword").val();
+        UsrInfo.Email = $("#Email").val();
+        //UsrInfo.CreateDate = $("#CreateDate").val();
+    }
+
+    function setUsrInfoObj(objUGInfo) {
+
+        UsrInfo.UserID = objUGInfo.UserID;
+        UsrInfo.UserName = objUGInfo.UserName;
+        UsrInfo.Password = objUGInfo.Password;
+        UsrInfo.ConfPassword = objUGInfo.ConfPassword;
+        UsrInfo.Email = objUGInfo.Email;
+        UsrInfo.CreateDate = objUGInfo.CreateDate;
+    }
+
+    $(document).on("click",
+    "#btnSaveLocation",
+    function () {
+
+        setUsrInfo();
+
+        //var SecFrmProc = rows_selected;
+
+        var validate = validateUsrInfOnSave(UsrInfo);
+        if (validate != "") {
+            alert(validate);
+            return;
+        }
+
+
+        $.ajax({
+            url: '@Url.Action("SaveSecUserInfo", "SecUserInfo")',
+            contentType: "application/json;charset=utf-8",
+            data: JSON.stringify({ SecUsrInfo: UsrInfo }),
+            type: 'POST',
+            dataType: 'json',
+            success: function (data) {
+
+                if (data == 1) {
+
+                    swal({
+                        title: "Ok",
+                        text: "All Information Saved Sucessfully!",
+                        type: "success"
+                    });
+
+                    var e = jQuery.Event("change");
+                    $("#FormCode").trigger(e);
+
+                    clearUsrInfo();
+                    clearUsrInfoControls();
+
+
+                }
+                else if (data == 0) {
+
+                    swal({
+                        title: "Sorry!",
+                        text: "An Error Occured During Save!",
+                        type: "warning"
+                    });
+
+                }
+                else if (data == 2) {
+
+                    swal({
+                        title: "Sorry!",
+                        text: "User Already Exists!!",
+                        type: "warning"
+                    });
+
+                }
+                else if (data == "X") {
+
+                    swal({
+                        title: "Sorry",
+                        text: "No Save Permission for this User",
+                        type: "warning"
+                    });
+
+                }
+
+                table.ajax.reload();
+
+            }
+        });
+    });
+
+
+    $(document).on("click",
+   "#btnUpdateLocation",
+   function () {
+
+       setUsrInfo();
+
+       //var SecFrmProc = rows_selected;
+
+       var validate = validateUsrInfOnSave(UsrInfo);
+       if (validate != "") {
+           alert(validate);
+           return;
+       }
+
+
+       $.ajax({
+           url: '@Url.Action("UpdateSecUserInfo", "SecUserInfo")',
+           contentType: "application/json;charset=utf-8",
+           data: JSON.stringify({ SecUsrInfo: UsrInfo }),
+           type: 'POST',
+           dataType: 'json',
+           success: function (data) {
+
+               if (data == 1) {
+
+                   swal({
+                       title: "Ok",
+                       text: "All Information Updated Sucessfully!",
+                       type: "success"
+                   });
+
+                   clearUsrInfo();
+                   clearUsrInfoControls();
+               }
+               else if (data == 0) {
+
+                   swal({
+                       title: "Sorry!",
+                       text: "An Error Occured During Update!",
+                       type: "warning"
+                   });
+
+               }
+               else if (data == 2) {
+
+                   swal({
+                       title: "Sorry!",
+                       text: "No Available Data to Update!",
+                       type: "warning"
+                   });
+
+               }
+               else if (data == 3) {
+
+                   swal({
+                       title: "Sorry!",
+                       text: "Code Already Exists!",
+                       type: "warning"
+                   });
+
+               }
+               else if (data == "U") {
+
+                   swal({
+                       title: "Sorry",
+                       text: "No Edit/Update Permission for this User",
+                       type: "warning"
+                   });
+
+               }
+
+               table.ajax.reload();
+
+           }
+       });
+   });
+
+    function clearUsrInfo() {
+
+        UsrInfo.UserID = "";
+        UsrInfo.UserName = "";
+        UsrInfo.Password = "";
+        UsrInfo.ConfPassword = "";
+        UsrInfo.Email = "";
+        UsrInfo.CreateDate = "";
+    }
+
+    function clearUsrInfoControls() {
+
+        $("#UserName").val("");
+        $("#Password").val("");
+        $("#ConfPassword").val("");
+        $("#Email").val("");
+        //$('#CreateDate').datepicker('setDate', null);
+
+
+        $("#btnSaveLocation").show();
+        $("#btnUpdateLocation").hide();
+
+        table.search('').draw();
+        table.clear().draw();
+        table.ajax.reload();
+
+    }
+
+
+    function setUsrInfoFieldData(UsrInfo) {
+
+        $("#UserName").val(UsrInfo.UserName);
+        $("#Password").val(UsrInfo.Password);
+        $("#ConfPassword").val(UsrInfo.Password);
+        $("#Email").val(UsrInfo.Email);
+
+        //if (UsrInfo.CreateDate == null) {
+        //    $("#CreateDate").val("");
+        //}
+        //else {
+        //    $('#CreateDate').datepicker('setDate', moment(UsrInfo.CreateDate).format("MM/DD/YYYY"));
+        //}
+
+        //$("#btnSaveLocation").hide();
+        //$("#btnUpdateLocation").show();
+    }
+
+
+    $("#btnClearUsrInfo").on("click", function () {
+
+        clearUsrInfoControls();
+    });
+
+
+
+        var $password = $('#Password');
+    var $confirmPassword = $('#ConfPassword');
+
+    // Hide hints by default on load
+    $("form span").hide();
+
+    // Check if entered password meets requirements (True or False)
+    function isPasswordValid() {
+        return $password.val().length > 0;
+    }
+
+    // Check if password fields match (True or False)
+    function arePasswordsMatching() {
+        return $password.val() === $confirmPassword.val();
+    }
+
+    // Check if passwords are both valid and matching (True or False)
+    function canSubmit() {
+        return isPasswordValid() && arePasswordsMatching();
+    }
+
+    // Hide hint if password valid, show if not valid
+    function passwordEvent() {
+        if (isPasswordValid()) {
+            $password.next().hide();
+        } else {
+            $password.next().show();
+        }
+    }
+
+    // Hide hint if both password fields match, show if fields do not match
+    function passwordConfirmation() {
+        if (arePasswordsMatching()) {
+            $confirmPassword.next().hide();
+        } else {
+            $confirmPassword.next().show();
+        }
+    }
+
+    // Enable submit button when passwords are both valid and matching
+    function enableSubmit() {
+
+        var isSaveVisible = $('#btnSaveLocation').is(':visible');
+        var isUpdateVisible = $('#btnUpdateLocation').is(':visible');
+
+        if (isSaveVisible == true)
+        {
+            $("#btnSaveLocation").prop("disabled", !canSubmit());
+        }
+        else if (isUpdateVisible == true)
+        {
+            $("#btnUpdateLocation").prop("disabled", !canSubmit());
+        }
+    }
+
+    $password.focus(passwordEvent).keyup(passwordEvent).keyup(passwordConfirmation).keyup(enableSubmit);
+
+    $confirmPassword.focus(passwordConfirmation).keyup(passwordConfirmation).keyup(enableSubmit);
+
+    //enableSubmit();
+
+</script>
+}

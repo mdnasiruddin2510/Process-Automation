@@ -1,0 +1,642 @@
+﻿@*@model App.Domain.Branch*@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @{
+        var CompInfo = ProcessAutomation.Models.GetCompanyInfo.GetComInfo();
+    }
+    <link rel="shortcut icon" href="~/Images/Basic/logo.gif">
+    <title>@ViewBag.Title - @CompInfo.CompName</title>
+
+    @*@Scripts.Render("~/App_Themes/Theme1/blue/assets/js/jquery.min.js")*@
+    @Scripts.Render("~/Scripts/jq.js")
+
+    @*@Scripts.Render("~/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js")*@
+    <link href="~/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/plugins/datatables/fixedHeader.bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/plugins/datatables/scroller.bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/App_Themes/Theme1/blue/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="~/App_Themes/Theme1/plugins/switchery/switchery.min.css" rel="stylesheet" />
+    <link href="~/App_Themes/Theme1/plugins/jquery-circliful/css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+    <!--<link href="~/App_Themes/Theme1/blue/assets/css/bootstrap.min.css" rel="stylesheet" />-->
+
+    <link href="~/App_Themes/Theme1/blue/assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="~/App_Themes/Theme1/blue/assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="~/App_Themes/Theme1/blue/assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="~/App_Themes/Theme1/blue/assets/css/pages.css" rel="stylesheet" type="text/css">
+    <link href="~/App_Themes/Theme1/blue/assets/css/menu.css" rel="stylesheet" type="text/css">
+    <link href="~/App_Themes/Theme1/blue/assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <script src="~/App_Themes/Theme1/blue/assets/js/modernizr.min.js"></script>
+    <link href="~/App_Themes/Theme1/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+    <link href="~/Css/FormDesign.css" rel="stylesheet" type="text/css" />
+    <style>
+        .topbar {
+        }
+
+            .topbar button {
+                background: none;
+                border: none;
+                position: relative;
+                left: 16px;
+                top: 17px;
+            }
+
+                .topbar button i {
+                    color: white;
+                    font-size: 24px;
+                }
+
+        #sidebar-menu > ul > li > .closebtn.active {
+            border: 0;
+        }
+
+        #sidebar-menu > ul > li > .closebtn.subdrop {
+            border-left: 0 !important;
+        }
+
+
+
+        .right_side_icon input[type="text"]:focus {
+            border: 1px dotted #3bafda;
+            color: #808080;
+        }
+
+        .right_side_icon ul {
+            /*
+                       display:flex;
+                flex-direction:row;
+                */
+        }
+
+            .right_side_icon ul li {
+                list-style: none;
+                display: inline;
+                position: relative;
+            }
+
+                .right_side_icon ul li a {
+                    text-decoration: none;
+                }
+
+                .right_side_icon ul li ul {
+                    position: absolute;
+                    left: 10px;
+                    top: 20px;
+                }
+
+                    .right_side_icon ul li ul li {
+                    }
+
+                        .right_side_icon ul li ul li a {
+                            padding: 6px;
+                            font-size: 13px;
+                        }
+    </style>
+
+</head>
+
+<body class="fixed-left">
+
+    <div id="wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <div class="text-center">
+                    <a href="" class="logo"><i class="md md-equalizer"></i> <span>Process Automation</span> </a>
+                    @*<text id="@Html.IdFor(x => x.BranchCode)" style="text-align:end !important; text-decoration: none; font-weight:bold; color:darkred; font-size:medium; margin-left:450px">@ViewBag.BranchCode</text>*@
+                </div>
+            </div>
+            <!-- Navbar -->
+            @*@{
+                string UserName = "admin"; //Session["UserName"].ToString();
+                ProcessAutomation.Models.RBACUser rUser = new ProcessAutomation.Models.RBACUser(UserName);
+            }*@
+            @{
+                string UserName = Session["UserName"].ToString();
+
+            }
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="">
+                        <div class="pull-left">
+                            @*<button class="button-menu-mobile open-left waves-effect">
+                                    <i class="md md-menu"></i>
+                                </button>*@
+                            <span class="clearfix"></span>
+                        </div>
+                        <div class="text-center" style="position: relative;float:left;left:50px; margin-top:22px; ">
+                            <text style="font-size: medium;!important; text-decoration: none; color: white">User:@UserName </text>
+                            @*<text style="font-size: medium;!important; text-decoration: none; color: white">@FinYear</text>*@
+                        </div>
+                        <div class="Product-logo">
+                            <img src="~/Images/AcclineHeadingLogo.png" class="logo-lg" style="height: 40px;" />
+                        </div>
+                        <div class="right_side_icon" style="
+                                                    height:40px;
+                                                    padding-left: 5px;
+                                                    padding-right: 5px;
+                                                    padding-top: 5px;
+                                                    float:right;
+                                                    margin-top:15px;
+                                                    border-radius:8px;
+                                                    margin-left:100px;">
+
+
+
+
+
+                            <ul>
+                                <li>
+                                    <a href="#" style="background: white;
+                                                    padding-top:5px;
+                                                    padding-bottom:5px;
+                                                    padding-left:5px;
+                                                    padding-right:5px;
+                                                    height: 30px;
+                                                    display:inline-block;">
+
+                                        @*<input id="myInput" type="text" placeholder="Search.." />*@
+                                        <input type="text" placeholder="Search.." name="search" style="/*border:0;*/
+
+
+                                color:#666666;
+                                font-weight:bolder;
+                                letter-spacing:2px;
+                                font-size:12px;
+                                height: 20px;">
+
+
+
+                                        <img src="~/Images/icon/search.png" style="height: 25px;
+                                                                         width: 25px;
+                                                                         padding:2px;
+                                                                         margin-top: -2px;
+                                                                         margin-right:-2px;
+                                                                         background: #3bafda;" />
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="NOTIFICATION" style="padding: 10px;">
+
+
+                                        <img src="~/Images/icon/notification.png" style="height: 25px;
+                                                                       width: 25px; " />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true" data-placement="bottom" title="USER" style="padding: 10px;">
+                                        <img src="~/Images/icon/user.png" style="height: 25px;
+                                                                      width: 25px;" />
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            @{
+                                                <a href="@Url.Action("logoff", "Authentication")">
+                                                    <i class="md md-settings-power"> Sign Out</i>
+                                                </a>
+                                            }
+                                        </li>
+
+                                    </ul>
+
+
+                                </li>
+                                <li>
+                                    <a href="/UserManual/UserManualChap1" data-toggle="tooltip" data-placement="bottom" title="HELP" style="padding: 10px;
+                                            color:#666666;
+                                            font-size: 12px;
+                                            letter-spacing: 2px;">
+                                        <img src="~/Images/icon/help.png" style="height: 25px;
+                                                                      width: 25px;" />
+
+
+
+
+
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://192.168.0.104:210/" data-toggle="tooltip" data-placement="bottom" title="SETTINGS" style="padding: 10px;">
+                                        <img src="~/Images/icon/settings.png" style="height: 25px;
+                                                                               width: 25px;" />
+                                    </a>
+                                </li>
+                            </ul>
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+    <!-- ========== Left Sidebar Start ========== -->
+    @*<div class="left side-menu">
+        <div class="sidebar-inner slimscrollleft">
+            <div id="sidebar-menu">
+                <ul style="height: 620px; overflow: auto">
+                    <li style="position:relative; left:73%; border:none;"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border:none; font-size:22px;">×</a></li>
+
+
+                    @{
+                        @*<li class="has_sub">
+                            @{
+                                if (rUser.HasPermissionToMenu("Home"))
+                                {
+                                    @Html.ActionLink("Home", "Index", "Home")
+                                }
+                            }
+
+
+                        </li>*@
+    }
+    @*</ul>
+
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>*@
+
+    @*<div class="user-detail">
+            <div class="dropup">
+                <a href="#" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true">
+                    @{
+                        var path = "~/Images/user.png";
+                    }
+                    <img src="@Url.Content(path)" alt="user-img" class="img-circle">
+                    <span class="user-info-span">
+                        <h5 class="m-t-0 m-b-0"> @Session["UserName"]</h5>
+                    </span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        @{
+                            <a href="@Url.Action("logoff", "Authentication" )">
+                                <i class="md md-settings-power"></i> Sign Out
+                            </a>
+                        }
+                    </li>
+                </ul>
+            </div>
+        </div>*@
+    @*</div>*@
+    <!-- Left Sidebar End -->
+    <!-- ============================================================== -->
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    @*<div class="content-page">*@
+    <div class="content" style="margin-top:80px; margin-right:80px;margin-left:100px;">
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <footer class="footer text-right">
+        @*<div>
+                <p>&copy; @DateTime.Now.Year - Data Head Private Limited</p>
+            </div>*@
+
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <p>&copy; @DateTime.Now.Year - Data Head Private Limited</p>
+            </div>
+            <div class="col-md-6">
+                <p style="text-align:right"> Published:09/18/2018 5:55:26 PM</p>
+            </div>
+
+        </div>
+    </footer>
+
+    @*</div>*@
+
+
+
+    <!-- /Right-bar -->
+    </div>
+
+    @RenderSection("scripts", required: false)
+    @*<script>
+            var resizefunc = [];
+
+            var ProjCode = "";
+            var BrCode = "";
+            var DeptCode = "";
+            var UnitCode = "";
+
+            var IsProjShwn = true;
+            var IsBrShwn = true;
+            var IsDeptShwn = true;
+            var IsUnitShwn = true;
+
+            $.ajax({
+                url: '@Url.Action("GetDynaSysSet", "Sales")',
+                contentType: "application/json;charset=utf-8",
+                data: {},
+                type: "GET",
+                dataType: 'json',
+                success: function (data) {
+                    if (data == 0) {
+                        alert("System Settings Not Found");
+                    }
+                    else {
+
+                        dojob(data);
+                    }
+                }
+            });
+
+            function dojob(DsSet) {
+
+                var EmpText = DsSet.DynaCap.Emp;
+                var CodeText = DsSet.DynaCap.Code;
+                var ProjText = DsSet.DynaCap.Proj;
+                var BranchText = DsSet.DynaCap.Branch;
+                var DeptText = DsSet.DynaCap.Dept;
+                var UnitText = DsSet.DynaCap.Unit;
+                var DesgText = DsSet.DynaCap.Desig;
+                var DistText = DsSet.DynaCap.Dist;
+                var DivisionText = DsSet.DynaCap.Division;
+                var PostText = DsSet.DynaCap.Post;
+
+                var HasProj = DsSet.SysSet.HasProject;
+                var HasBranch = DsSet.SysSet.HasBranch;
+                var HasDept = DsSet.SysSet.HasDept;
+                var HasUnit = DsSet.SysSet.HasUnit;
+
+                var McodeTxt = "";
+                var PcodeTxt = "";
+
+                var Pddllen = $("#ProjCode > option").length;
+                var BRddllen = $("#BrCode > option").length;
+                var DPddllen = $("#DeptCode > option").length;
+                var UTddllen = $("#UnitCode > option").length;
+
+                if (EmpText.length > 0 && CodeText.length > 0) {
+                    McodeTxt = EmpText + " " + CodeText;
+                }
+                if (ProjText.length > 0) {
+                    $("label[for='ProjCode']").text(ProjText);
+                    $('#thDProject').html(ProjText);
+                    $('#thD2Project').html(ProjText);
+
+                    //ShowDynDataTableColumns(ProjText);
+                }
+                if (BranchText.length > 0) {
+                    $("label[for='BrCode']").text(BranchText);
+                    $("#thDBranch").html(BranchText);
+                    $("#thD2Branch").html(BranchText);
+
+                    //ShowDynDataTableColumns(BranchText);
+
+                }
+                if (DeptText.length > 0) {
+                    $("label[for='DeptCode']").text(DeptText);
+                    $("#thDDepartment").html(DeptText);
+                    $("#thD1Department").html(DeptText);
+                    $("#thD2Department").html(DeptText);
+
+                    //ShowDynDataTableColumns(DeptText);
+
+                }
+                if (UnitText.length > 0) {
+                    $("label[for='UnitCode']").text(UnitText);
+                    $("#thDUnit").html(UnitText);
+                    //ShowDynDataTableColumns(UnitText);
+                }
+                if (DesgText.length > 0) {
+                    $("label[for='DesgCode']").text(DesgText);
+                    $("label[for='PrevDesigCode']").text(DesgText);
+                    $("#thDDesignation").html(DesgText);
+                    $("#thD1Designation").html(DesgText);
+                    $("#thD2Designation").html(DesgText);
+                }
+                if (PostText != undefined > 0 && CodeText != undefined > 0) {
+                    PcodeTxt = PostText + " " + CodeText;
+                    $("label[for='PostCode']").text(PcodeTxt);
+                }
+                if (DistText != undefined) {
+                    $("label[for='DistID']").text(DistText);
+                }
+                if (DivisionText != undefined) {
+                    $("label[for='DivID']").text(DivisionText);
+                }
+
+
+                if (Pddllen == 2 || HasProj == false) {
+                    $("#ddfProjCode").hide();
+                    ProjCode = "01";
+                    IsProjShwn = false;
+                    HideDynDataTableColumns(ProjText);
+                    //HideDynDataTableColumns(ProjText);
+
+                }
+                if (BRddllen == 2 || HasBranch == false) {
+                    $("#ddfBrCode").hide();
+                    BrCode = "001";
+                    IsBrShwn = false;
+                    HideDynDataTableColumns(BranchText);
+                    //HideDynDataTableColumns(BranchText);
+
+                }
+                if (DPddllen == 2 || HasDept == false) {
+                    $("#ddfDeptCode").hide();
+                    DeptCode = "01";
+                    IsDeptShwn = false;
+                    HideDynDataTableColumns(DeptText);
+                    //HideDynDataTableColumns(DeptText);
+
+                }
+                if (UTddllen == 2 || HasUnit == false) {
+                    $("#ddfUnitCode").hide();
+                    UnitCode = "000001";
+                    IsUnitShwn = false;
+                    HideDynDataTableColumns(UnitText);
+                    //HideDynDataTableColumns(UnitText);
+                }
+
+            }
+
+
+            $('a[id^=rpt]').on('click', function () {
+                switch (this.id) {
+                    case "rptBalanceSheet":
+                        var RptCaption = this.id;
+                        this.href = "../BalSheetRpt/BalSheetRpt?RptCaption=rptcap";
+                        this.href = this.href.replace("rptcap", RptCaption);
+                        //alert(this.id);
+                        break;
+                    case "rptJournalVoucher":
+                        var RptCaption = this.id;
+                        this.href = "../ListOfTransaction/Search?RptCaption=rptcap";
+                        this.href = this.href.replace("rptcap", RptCaption);
+                        //alert(this.id);
+                        break;
+                    case "rptTBProcess":
+                        var RptCaption = this.id;
+                        this.href = "../SummaryReport/Search?RptCaption=rptcap";
+                        this.href = this.href.replace("rptcap", RptCaption);
+                        //alert(this.id);
+                        break;
+                    case "rptStockSumm":
+                        var RptCaption = this.id;
+                        this.href = "../SummaryReport/Search?RptCaption=rptcap";
+                        this.href = this.href.replace("rptcap", RptCaption);
+                        //alert(this.id);
+                        break;
+                }
+            });
+
+            jQuery(".datePage").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd/mm/yyyy',
+                language: "pt-BR",
+                changeMonth: true,
+                changeYear: true,
+                onSelect: function () {
+                    selectedDate = $.datepicker.formatDate("dd/mm/yyyy", $(this).datepicker('getDate'));
+                }
+            });
+
+            function DateInDMYformat(InDate) {
+
+                if (InDate == null)
+                    return "";
+
+                var dateString = InDate.substr(6);
+
+                var Cdate = new Date(parseInt(dateString));
+                Cdate.setHours(Cdate.getHours() - Cdate.getTimezoneOffset() / 60);
+
+                var month = Cdate.getMonth() + 1;
+                var day = Cdate.getDate();
+                var year = Cdate.getFullYear();
+                var date = day + "/" + month + "/" + year;
+                return date;
+            }
+
+            function DateInMDYformat(InDate) {
+
+                if (InDate == null)
+                    return "";
+
+                var dateString = InDate.substr(6);
+
+                var Cdate = new Date(parseInt(dateString));
+                Cdate.setHours(Cdate.getHours() - Cdate.getTimezoneOffset() / 60);
+
+                var month = Cdate.getMonth() + 1;
+                var day = Cdate.getDate();
+                var year = Cdate.getFullYear();
+                var date = month + "/" + day + "/" + year;
+                return date;
+            }
+
+            function HideDynDataTableColumns(ColumnText) {
+
+                var tables = $.fn.dataTable.tables();
+
+
+                for (var i = 0, max = tables.length; i < max; i += 1) {
+
+                    var currTable = tables[i];
+                    var DTable = $('#' + currTable.id + '');
+
+
+                    var Index = 0;
+                    var ClmIndex = -1;
+
+                    DTable.DataTable().columns().every(function () {
+                        var data = this.header().innerHTML;
+                        if (data == ColumnText) {
+                            ClmIndex = Index;
+                            return false;
+                        }
+                        Index++;
+                    });
+
+                    if (ClmIndex > -1) {
+                        DTable.DataTable().column(ClmIndex).visible(false);
+                    }
+
+                }
+
+            }
+
+            function ShowDynDataTableColumns(ColumnText) {
+
+                var tables = $.fn.dataTable.tables();
+
+                for (var i = 0, max = tables.length; i < max; i += 1) {
+
+                    var currTable = tables[i];
+                    var DTable = $('#' + currTable.id + '');
+
+                    var elem = $('th').filter(function () {
+                        return $(this).text().trim() == ColumnText;
+                    });
+                    var row_index_first = elem.index();
+
+                    if (row_index_first >= 0) {
+                        //DTable.DataTable().column(row_index_first).visible(true);
+                    }
+
+                }
+            }
+
+
+        </script>*@
+    <!-- Plugins -->
+    @Scripts.Render("~/App_Themes/Theme1/blue/assets/js/bootstrap.min.js")
+
+    @Scripts.Render("~/App_Themes/Theme1/blue/assets/js/fastclick.js ")
+
+    @Scripts.Render("~/App_Themes/Theme1/blue/assets/js/wow.min.js ")
+
+
+    @Scripts.Render("~/App_Themes/Theme1/plugins/moment/moment.js")
+
+    @Scripts.Render("~/App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js")
+    @Scripts.Render("~/App_Themes/Theme1/blue/assets/js/jquery.core.js ")
+    @Scripts.Render("~/App_Themes/Theme1/blue/assets/js/jquery.app.js ")
+
+
+    <script src="/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="/App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="/App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <!-- Datatable init js -->
+    <script src="/App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+
+    <!-- Sweet.js -->
+    <link href="/App_Themes/Theme1/plugins/bootstrap-sweetalert/sweet-alert.css" rel="stylesheet" />
+    <script src="/App_Themes/Theme1//plugins/bootstrap-sweetalert/sweet-alert.min.js"></script>
+    <script src="/App_Themes/Theme1/blue/assets/pages/jquery.sweet-alert.init.js"></script>
+
+</body>
+</html>

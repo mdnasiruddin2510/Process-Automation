@@ -1,0 +1,633 @@
+﻿@model App.Domain.ViewModel.BranchVM
+@{
+    ViewBag.Title = "Branch";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /*table.dataTable.select tbody tr,
+    table.dataTable thead th:first-child {
+        cursor: pointer;
+    }
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    .col-md-12 {
+        padding: 0 !important;
+    }
+
+    .required:after {
+        content: " *";
+        font-weight: bold;
+        color: red;
+    }*/
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 13px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove;
+    }
+
+    legend {
+        display: block;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: none;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important;text-decoration:none;">Branch</text>
+                    </h3>
+                </div>
+                <fieldset>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Branch Code</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="BranchCode" class="form-control" />
+                                @*@Html.TextBoxFor(x => x.BranchCode, new { @class = "form-control" })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Branch Name</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="BranchName" class="form-control" />
+                                @*@Html.TextBoxFor(x => x.BranchName, new { @class = "form-control" })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Branch type</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="BranchType" class="form-control" />
+                                @*@Html.DropDownListFor(x => x.BrLocalName, null, "Search Branch", new { @class = "form-control select2*", @Value = ViewBag.BrLocalName })*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Branch Local Name</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="BrLocalName" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Branch Address</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="BrAddress" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="text-align:end">
+                        @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                        *@
+                        <input type="button" value="Save" class="btn btn-primary" id="btnadd" style="width:100px; margin-right:42px" />
+                        <input type="button" value="UPDATE" class="btn btn-primary" id="btnupdate" style="width:100px; margin-right:42px" />
+                        @*
+                            </div>*@
+                    </div>
+                    <div class="col-sm-12 col-md-12" style="margin-top: 10px; margin-bottom: 10px;">
+                        <div class="row col-sm-12 col-md-12" style="border:1px solid; border-color:#adcceb; width:100%">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12" style="padding:1px 18px 1px 18px">
+                                    <br />
+                                    <table class="table table-bordered table-responsive" id="Add-datatable" style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th width="5%">Id</th>
+                                                <th width="10%">Branch&nbsp;Code</th>
+                                                <th width="5%">Branch&nbsp;Name</th>
+                                                <th width="5%">Branch&nbsp;Loc&nbsp;Name</th>
+                                                <th width="5%">Branch&nbsp;Address</th>
+                                                <th width="5%">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbodyId"></tbody>
+                                    </table>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="text-align:end">
+                        @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                        *@
+                        <input type="submit" value="Preview" class="btn btn-primary" id="btnPreview" style="width:100px; margin-right:0px" />
+                        <input type="button" value="Print" class="btn btn-primary" id="btprint" style="width:100px; margin-right:9px" />
+                        @*
+                            </div>*@
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+    <script>$("#BrLocalName").select2()</script>
+    <script>
+        /////////////////////////////All data show//////////
+        var table = $("#Add-datatable").DataTable({
+            "scrollX": true,
+            "scrollY": 200,
+            "paging": false,
+            "ordering": false,
+            "info": false,
+            "searching": false,
+            "ajax": "../Branch/GetAllDataForBranch",
+            "columns": [
+                       { "data": null, "bSortable": false },
+                       { "data": "BranchCode"},
+                       { "data": "BranchName" },
+                        { "data": "BrLocalName" },
+                         { "data": "BrAddress" },                       
+                        //{ "data": "BranchType" },
+
+                       {
+                           mRender: function (data, type, row) {
+                               return '<a href="#" id="edit" class="btn btn-default" value="' + row.BranchCode + '">'
+                                       + '<span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>&ensp;&ensp;'
+                               + '<a href="#" class="on-default remove-row deleteSup largeSpace" data-id="1" id="delete" value="' + row.BranchCode + '">'
+                               + ' <i class="glyphicon glyphicon-trash"></i> </a>'
+                           }
+                       },
+            ],
+            "fnCreatedRow": function (row, data, index) {
+                $('td', row).eq(0).html(index + 1);
+            }
+
+
+        });
+        ///Clear receive
+        function clearReceive()
+        {
+
+            $("#BranchCode").val(@ViewBag.BranchCode);
+            $("#BranchCode").val("");
+            $("#BranchName").val("");
+            $("#BrLocalName").val("");
+            $("#BrAddress").val("");
+        }
+
+        $("#btnupdate").hide();
+        $("#btnadd").show();
+        //Load Datatable
+        $('#datatable').DataTable({
+            responsive: true
+        });
+        //var table = $('#Add-datatable').dataTable({
+        //    "scrollY": 200,
+        //    "scrollX": true,
+        //    "paging": false,
+        //    "ordering": false,
+        //    "info": false,
+        //    "searching": false
+        //});
+
+        var orders = [];
+        var delQtyOrder = [];
+        $("#btnadd").click(function () {
+
+            var BranchCode=$("#BranchCode").val();
+            var BranchName= $("#BranchName").val();
+            var BrLocalName=$("#BrLocalName").val();
+            var BrAddress=$("#BrAddress").val();
+
+
+            addOnList();
+            $("tbody#tbodyId tr:even").css({
+                "background-color": "#e6e8e8"
+
+            });
+
+            //clearItemInfo();
+        });
+        function clearItemInfo() {
+
+            $("#BranchCode").val("");
+            $("#BranchName").val("");
+            $("#BrLocalName").val("");
+            $("#BrAddress").val("");
+
+        }
+
+        function addOnList() {
+            var newAddList = [];
+            var newAddListSl = 0;
+            var BranchCode = $("#BranchCode").val();
+            var BranchName= $("#BranchName").val();
+            var BrLocalName= $("#BrLocalName").val();
+            var BrAddress= $("#BrAddress").val();
+
+
+            var item = {
+                BranchCode:BranchCode,BranchName: BranchName,BrLocalName:BrLocalName,BrAddress:BrAddress,Sl:0
+            }
+            const i = orders.findIndex(x=>x.BranchName === BranchName);
+            if (i > -1)
+            {
+
+                item.BranchCode =BranchCode;
+                item.BranchName =BranchName;
+                item.BrLocalName=BrLocalName;
+                item.BrAddress=BrAddress;
+                orders[i] = item;
+            }
+            else
+            {
+                item.Sl = orders.length + 1;
+                orders.push(item);
+            }
+            addOnTable();
+        }
+        //function addOnTable() {
+        //    $('#tbodyId').empty();
+        //    var sl = 0;
+        //    $.each(orders, function (index, data) {
+        //        sl = sl + 1;
+        //        data.Sl = sl;
+
+        //        $("#tbodyId").append("<tr><td>" + sl + "</td><td>"
+        //                                           + data.BranchCode + "</td><td>"
+        //                                           + data.BranchName + "</td><td>"
+        //                                           + data.BrLocalName + "</td><td>"
+        //                                           + data.BrAddress + "</td><td>"
+        //                                           + '<a href="#" class="on-default remove-row deleteSup" data-id="1" id="edit" value="' + data.BranchCode + '"><i class="glyphicon glyphicon-edit"></i></a>&emsp;<a href="#" class="on-default remove-row deleteSup largeSpace" data-id="1" id="delete" value="' + data.BranchCode + '">'
+        //                                           + ' <i class="glyphicon glyphicon-trash"></i> </a>');
+        //        //+ '<a href="#" class="on-default remove-row deleteSup" data-id="' + sl + '" id="delete" value="' + sl + '"><i class="glyphicon glyphicon-trash"></i></a>' + "</td></tr>");
+
+        //        //};
+        //    });
+        //}
+        //////////////get all data/////////////////
+        @*loadGridByBNo();
+
+
+        function loadGridByBNo() {
+            $.ajax({
+                url: '@Url.Action("GetAllDataForBranch", "Branch")',
+                contentType: "application/json;charset=utf-8",
+                data: { BranchCode: $("#BranchCode option:selected").val() },
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+
+                    if (data.data.length >= 0) {
+                        var table = $('#datatable-buttonsJV').DataTable();
+                        table.clear();
+                        table.rows.add(data.data).draw();
+
+
+                    }
+
+                }
+            });
+        }*@
+        //////////////////delete temporary data/////////////
+        $(document).on("click", "#delete", function () {
+            var value = $(this).attr("value");
+            swal({
+                title: "Are you sure?",
+                text: "You will not be able to recover this data!",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: false,
+                closeOnCancel: true
+            },
+                function () {
+                    $.ajax({
+                        url: '@Url.Action("DeleteBranch", "Branch")',
+                        contentType: "application/json;charset=utf-8",
+                        data: { BranchCode: value },
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (datas) {
+
+                            if (datas == 0 || datas == 2) {
+                                swal("Sorry!! Failed to delete this data.", "fail");
+                            }
+                            else if (datas == 1) {
+                                swal({
+                                    title: "Ok",
+                                    text: "Sucessfully Delete!",
+                                    type: "success",
+                                    closeOnConfirm: true
+
+                                }, function () {
+                                    clearReceive();
+                                    location.reload();
+                                });
+                            }
+                            else if (datas == "D") {
+
+                                swal({
+                                    title: "Sorry",
+                                    text: "No Delete Permission for this User",
+                                    type: "warning"
+                                });
+
+                            }
+
+                        },
+                        error: function (datas) {
+                            swal("Sorry!! Failed to delete this data.", "fail")
+                        }
+                    });
+                });
+        });
+        ////////////////////update//////////////////////////
+
+        $(document).on("click","#btnupdate",function(){
+            setOrder();
+            //var validate = validateOnSave(loadInfo);
+            //if (validate != "") {
+            //    alert(validate);
+            //    return;
+            //}
+            if (orders != 0) {
+                $.ajax({
+                    url: '@Url.Action("UpdateBranch", "Branch")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify({ BranchCode: loadInfo}),
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (datas) {
+                        if (datas == 1) {
+                            swal({
+                                title: "Ok",
+                                text: "Successfully Updated!",
+                                type: "success",
+                                closeOnConfirm: true
+                            },
+
+                            function () {
+                                //location.reload();
+                                clearReceive();
+                            });
+                            //$("#btnadd").prop("disabled", false);
+                            //orders = [];
+                            //$('#tbodyId').empty();
+
+
+                        }
+                        else if (datas == "X") {
+                            swal({
+                                title: "Sorry",
+                                text: "No Save Permission for this User",
+                                type: "warning"
+                            });
+                        }
+                        else if (datas == 0) {
+                            swal(
+                                'Sorry!',
+                                'All (*) field are required. These Fields can not be empty!!!',
+                                'warning'
+                            );
+                            $("#save").prop("disabled", false);
+                        }
+                        else if (data == 2) {                           //save  data
+                            swal({
+                                title: "Sorry!",
+                                text: "Data Already Exists",
+                                type: "warning"
+                            });
+                        }
+
+                            //});
+
+                            //}
+                        else{
+                            swal(
+                                'Sorry!',
+                                'Please Add item in the Table.!!!',
+                                'warning'
+                                );
+                        }
+                    }//success
+                });//ajax
+            }//if (orders != 0) {
+
+        });
+
+
+        @*$(document).on('click', '#delete', function () {
+            var id = $(this).attr("value");
+
+            swal({
+                title: "Are you sure?",
+                text: "You will not be able to recover this order data!",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: true
+            },
+             function () {
+
+                 var delQtySl = 0;
+                 var delQtyItem =
+                     {
+                         BranchCode:BranchCode,
+                         BranchName: BranchName,
+                         BrLocalName:BrLocalName,
+                         BrAddress:BrAddress
+                     }
+                 const i = orders.findIndex(_x => _x.Sl === parseInt(id));
+                 if (i > -1)
+                 {
+                     delQtySl++;
+                     delQtyItem.BranchCode = orders[i].BranchCode;
+                     delQtyItem.BranchName =orders[i].BranchName;
+                     delQtyItem.BrLocalName = orders[i].BrLocalName;
+                     delQtyItem.BrAddress = orders[i].BrAddress;
+                     delQtyOrder.push(delQtyItem)
+                 }
+                 @*$.ajax({
+                          url: '@Url.Action("DeleteFromDB", "Receive")',
+                          contentType: "application/json;charset=utf-8",
+                          data: { Qty: Qty, ItemCode:ItemCode,RcvNo:RcvNo },
+                          dataType: 'json',
+                          success: function (datas) { }
+                      })
+
+                 deleteRow(id);
+                 addOnTable();
+                 swal("Deleted!", "Your imaginary file has been deleted.", "success");
+
+             });
+        });
+        function deleteRow(sl) {
+            var newOrder = [];
+            var newSl = 0;
+
+            $.each(orders, function (index, data) {
+
+                if (data.Sl != sl) {
+                    newSl++;
+                    data.Sl = newSl;
+                    data.Id = 0;
+                    newOrder.push(data);
+                }
+            });
+            orders = new Array();
+            orders = newOrder;
+
+        }*@
+        //save///////////////////////////////////////////////////////////////
+        var loadInfo = {
+            BranchCode: "",
+            BranchName: "",
+            BrLocalName: "",
+            BrAddress:""
+        };
+        function setOrder() {
+            loadInfo.BranchCode = $("#BranchCode").val();
+            loadInfo.BranchName = $("#BranchName").val();
+            loadInfo.BrLocalName = $("#BrLocalName").val();
+            loadInfo.BrAddress = $("#BrAddress").val();
+
+        }
+
+        $(document).on("click","#btnadd",function(){
+            setOrder();
+            //var validate = validateOnSave(loadInfo);
+            //if (validate != "") {
+            //    alert(validate);
+            //    return;
+            //}
+            if (orders != 0) {
+                $.ajax({
+                    url: '@Url.Action("SaveBranch", "Branch")',
+                    contentType: "application/json;charset=utf-8",
+                    data: JSON.stringify({ BranchCode: loadInfo}),
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (datas) {
+                        if (datas == 1) {
+                            swal({
+                                title: "Ok",
+                                text: "Successfully Saved!",
+                                type: "success",
+                                closeOnConfirm: true
+                            },
+
+                            function () {
+                                //location.reload();
+                                clearReceive();
+                            });
+                            //$("#btnadd").prop("disabled", false);
+                            //orders = [];
+                            //$('#tbodyId').empty();
+
+
+                        }
+                        else if (datas == "X") {
+                            swal({
+                                title: "Sorry",
+                                text: "No Save Permission for this User",
+                                type: "warning"
+                            });
+                        }
+                        else if (datas == 0) {
+                            swal(
+                                'Sorry!',
+                                'All (*) field are required. These Fields can not be empty!!!',
+                                'warning'
+                            );
+                            $("#save").prop("disabled", false);
+                        }
+                        else if (data == 2) {                           //save  data
+                            swal({
+                                title: "Sorry!",
+                                text: "Data Already Exists",
+                                type: "warning"
+                            });
+                        }
+
+                            //});
+
+                            //}
+                        else{
+                            swal(
+                                'Sorry!',
+                                'Please Add item in the Table.!!!',
+                                'warning'
+                                );
+                        }
+                    }//success
+                });//ajax
+            }//if (orders != 0) {
+
+        });
+
+        //////////////Edit////////////////////////////////
+        $(document).on('click', "#edit", function () {
+            var value = $(this).attr("value");
+            //$("#update").show();
+            $.ajax({
+                url: '@Url.Action("GetBranchmByIdEdit", "Branch")',
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify({ BranchCode: value }),
+                type: 'POST',
+                dataType: 'json',
+                success: function (datas) {
+
+                    $("#BranchCode").val(datas.BranchCode);
+                    $("#BranchName").val(datas.BranchName);
+                    $("#BrLocalName").val(datas.BrLocalName);
+                    $("#BrAddress").val(datas.BrAddress);
+                    $("#btnupdate").show();
+                    $("#btnadd").hide();
+                }
+            });
+
+        });
+
+    </script>
+}
+
+
+
+

@@ -1,0 +1,985 @@
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Common.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Common.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+E:\Share\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+D:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+E:\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+E:\Project\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll.config
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ERPConfiguration.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Antlr3.Runtime.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Infrastructure.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Rotativa.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Optimization.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebActivatorEx.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\WebGrease.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\App.Domain.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Interfaces.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\CrossCutting.InversionOfControl.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Context.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EntityFramework.SqlServer.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\EPPlus.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Newtonsoft.Json.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Ninject.Web.Mvc.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Net.Http.Formatting.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.WebHost.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.AspNet.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.Core.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OAuth.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Web.Http.OData.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.Edm.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Data.OData.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\System.Spatial.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zxing.presentation.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Microsoft.Practices.ServiceLocation.xml
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Application.Services.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\Data.Repository.pdb
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\de\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\es\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\fr\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\it\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ja\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ko\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\ru\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hans\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\bin\zh-Hant\System.Spatial.resources.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csprojResolveAssemblyReference.cache
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a1.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a2.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a3.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a4.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a5.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a6.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.Migrations.a7.resources
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ProcessAutomation.csproj.GenerateResource.Cache
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.dll
+G:\New folder\ProcessAutomation\ERPConfiguration\ERPConfiguration\obj\Debug\ERPConfiguration.pdb

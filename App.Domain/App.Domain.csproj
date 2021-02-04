@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C5DF764-3858-4C07-9729-AB68C49AE77F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App.Domain</RootNamespace>
+    <AssemblyName>App.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionList.cs" />
+    <Compile Include="Boundary.cs" />
+    <Compile Include="Branch.cs" />
+    <Compile Include="CompanyInfo.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="Dictionary.cs" />
+    <Compile Include="DynaCap.cs" />
+    <Compile Include="AFileDetail.cs" />
+    <Compile Include="FileDetail.cs" />
+    <Compile Include="AFileMain.cs" />
+    <Compile Include="FileMain.cs" />
+    <Compile Include="Interface\Repository\IStaffDetailsRepository.cs" />
+    <Compile Include="Interface\Repository\ISysSetRepository.cs" />
+    <Compile Include="Interface\Repository\IAFileMainRepository.cs" />
+    <Compile Include="Interface\Repository\IAFileDetailRepository.cs" />
+    <Compile Include="Interface\Repository\IDictionaryRepository.cs" />
+    <Compile Include="Interface\Repository\IFileProcessInfosRepository.cs" />
+    <Compile Include="Interface\Repository\IBranchRepository.cs" />
+    <Compile Include="Interface\Repository\ICompanyInfoRepository.cs" />
+    <Compile Include="Interface\Repository\IDynaCapRepository.cs" />
+    <Compile Include="Interface\Repository\IFileDetailRepository.cs" />
+    <Compile Include="Interface\Repository\IFileMainRepository.cs" />
+    <Compile Include="Interface\Repository\IPhrasesRepository.cs" />
+    <Compile Include="Interface\Repository\IStaffRepository.cs" />
+    <Compile Include="Interface\Repository\IReportingRepository.cs" />
+    <Compile Include="Interface\Repository\IBoundaryRepository.cs" />
+    <Compile Include="Interface\Repository\IActionListRepository.cs" />
+    <Compile Include="Interface\Repository\IFileTransMainRepository.cs" />
+    <Compile Include="Interface\Repository\IFileTransDetailRepository.cs" />
+    <Compile Include="Interface\Repository\ILanguagesRepository.cs" />
+    <Compile Include="Interface\Repository\ITransactionLogRepository.cs" />
+    <Compile Include="Interface\Repository\IUserBranchRepository.cs" />
+    <Compile Include="Interface\Repository\IUserProfileRepository.cs" />
+    <Compile Include="Interface\Service\Common\ICommonSearchService.cs" />
+    <Compile Include="Interface\Service\Common\IReadOnlyService.cs" />
+    <Compile Include="Interface\Service\Common\IService.cs" />
+    <Compile Include="Interface\Service\Common\IUtilityService.cs" />
+    <Compile Include="Interface\Service\IStaffDetailsService.cs" />
+    <Compile Include="Interface\Service\ISysSetService.cs" />
+    <Compile Include="Interface\Service\IAFileMainService.cs" />
+    <Compile Include="Interface\Service\IAFileDetailService.cs" />
+    <Compile Include="Interface\Service\IDictionaryService.cs" />
+    <Compile Include="Interface\Service\IFileProcessInfosService.cs" />
+    <Compile Include="Interface\Service\IBranchService.cs" />
+    <Compile Include="Interface\Service\ICompanyInfoService.cs" />
+    <Compile Include="Interface\Service\IDynaCapService.cs" />
+    <Compile Include="Interface\Service\IFileDetailService.cs" />
+    <Compile Include="Interface\Service\IFileMainService.cs" />
+    <Compile Include="Interface\Service\IPhraseServices.cs" />
+    <Compile Include="Interface\Service\IStaffService.cs" />
+    <Compile Include="Interface\Service\IReportingService.cs" />
+    <Compile Include="Interface\Service\IBoundaryService.cs" />
+    <Compile Include="Interface\Service\IActionListService.cs" />
+    <Compile Include="Interface\Service\IFileTransMainService.cs" />
+    <Compile Include="Interface\Service\IFileTransDetailService.cs" />
+    <Compile Include="Interface\Service\ILanguagesService.cs" />
+    <Compile Include="Interface\Service\IEmailConfigService.cs" />
+    <Compile Include="Interface\Service\IEmployeeFuncService.cs" />
+    <Compile Include="Interface\Service\IEmployeeService.cs" />
+    <Compile Include="Interface\Service\IFYDDService.cs" />
+    <Compile Include="Interface\Service\IRecPasswordService.cs" />
+    <Compile Include="Interface\Service\ISecFormListService.cs" />
+    <Compile Include="Interface\Service\ISecFormProcessService.cs" />
+    <Compile Include="Interface\Service\ISecFormRightService.cs" />
+    <Compile Include="Interface\Service\ISecProcessListService.cs" />
+    <Compile Include="Interface\Service\ISecUserGroupService.cs" />
+    <Compile Include="Interface\Service\ISecUserInfoService.cs" />
+    <Compile Include="Interface\Service\ISecUserInGroupService.cs" />
+    <Compile Include="Interface\Service\ITransactionLogService.cs" />
+    <Compile Include="Interface\Service\IUserBranchService.cs" />
+    <Compile Include="Interface\Service\IUserProfileService.cs" />
+    <Compile Include="Interface\Service\ReceiveMain.cs" />
+    <Compile Include="Languages.cs" />
+    <Compile Include="StaffDetails.cs" />
+    <Compile Include="PageList.cs" />
+    <Compile Include="PhrasePage.cs" />
+    <Compile Include="Phrases.cs" />
+    <Compile Include="Services\StaffDetailsService.cs" />
+    <Compile Include="Services\SysSetService.cs" />
+    <Compile Include="Services\DictionaryService.cs" />
+    <Compile Include="Services\PhrasesServices.cs" />
+    <Compile Include="StaffInfo.cs" />
+    <Compile Include="FileTransMain.cs" />
+    <Compile Include="FileTransDetail.cs" />
+    <Compile Include="RecPassword.cs" />
+    <Compile Include="ReportingTo.cs" />
+    <Compile Include="Services\AFileMainService.cs" />
+    <Compile Include="Services\AFileDetailService.cs" />
+    <Compile Include="Services\FileProcessInfosService.cs" />
+    <Compile Include="Services\BranchService.cs" />
+    <Compile Include="Services\CompanyInfoService.cs" />
+    <Compile Include="Services\DynaCapService.cs" />
+    <Compile Include="Services\FileDetailService.cs" />
+    <Compile Include="Services\FileMainService.cs" />
+    <Compile Include="Services\StaffService.cs" />
+    <Compile Include="Services\ReportingService.cs" />
+    <Compile Include="Services\BoundaryService.cs" />
+    <Compile Include="Services\ActionListService.cs" />
+    <Compile Include="Services\FileTransMainService.cs" />
+    <Compile Include="Services\FileTransDetailService.cs" />
+    <Compile Include="Services\LanguagesService.cs" />
+    <Compile Include="GetwayProvider.cs" />
+    <Compile Include="Interface\Repository\Common\ICommonSearchRepo.cs" />
+    <Compile Include="Interface\Repository\Common\IReadOnlyRepository.cs" />
+    <Compile Include="Interface\Repository\Common\IRepository.cs" />
+    <Compile Include="Interface\Repository\IEmailConfigRepository.cs" />
+    <Compile Include="Interface\Repository\IEmployeeFuncRepository.cs" />
+    <Compile Include="Interface\Repository\IEmployeeRepository.cs" />
+    <Compile Include="Interface\Repository\IFYDDRepository.cs" />
+    <Compile Include="Interface\Repository\IRecPasswordRepository.cs" />
+    <Compile Include="Interface\Repository\ISecFormListRepository.cs" />
+    <Compile Include="Interface\Repository\ISecFormProcessRepository.cs" />
+    <Compile Include="Interface\Repository\ISecFormRightRepository.cs" />
+    <Compile Include="Interface\Repository\ISecProcessListRepository.cs" />
+    <Compile Include="Interface\Repository\ISecUserGroupRepository.cs" />
+    <Compile Include="Interface\Repository\ISecUserInfoRepository.cs" />
+    <Compile Include="Interface\Repository\ISecUserInGroupRepository.cs" />
+    <Compile Include="ReportLedger.cs" />
+    <Compile Include="SecFormList.cs" />
+    <Compile Include="SecFormProcess.cs" />
+    <Compile Include="SecFormRight.cs" />
+    <Compile Include="SecProcessList.cs" />
+    <Compile Include="SecUserGroup.cs" />
+    <Compile Include="SecUserInfo.cs" />
+    <Compile Include="SecUserInGroup.cs" />
+    <Compile Include="Services\SecFormListService.cs" />
+    <Compile Include="Services\SecFormProcessService.cs" />
+    <Compile Include="Services\SecFormRightService.cs" />
+    <Compile Include="Services\SecProcessListService.cs" />
+    <Compile Include="Services\SecUserGroupService.cs" />
+    <Compile Include="Services\SecUserInfoService.cs" />
+    <Compile Include="Services\SecUserInGroupService.cs" />
+    <Compile Include="CommonInfo.cs" />
+    <Compile Include="EmailConfig.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeFunc.cs" />
+    <Compile Include="FYDD.cs" />
+    <Compile Include="Interface\Domain\ICommonProperty.cs" />
+    <Compile Include="Interface\Domain\ICustomer.cs" />
+    <Compile Include="Interface\VModel\ICommonSearchModel.cs" />
+    <Compile Include="Interface\VModel\IComSearchName.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendEmail.cs" />
+    <Compile Include="Services\Common\CommonSearchService.cs" />
+    <Compile Include="Services\Common\ReadOnlyService.cs" />
+    <Compile Include="Services\Common\Service.cs" />
+    <Compile Include="Services\Common\UtilityService.cs" />
+    <Compile Include="Services\EmailConfigService.cs" />
+    <Compile Include="Services\EmployeeFuncService.cs" />
+    <Compile Include="Services\EmployeeService.cs" />
+    <Compile Include="Services\FYDDService.cs" />
+    <Compile Include="Services\RecPasswordService.cs" />
+    <Compile Include="Services\TransactionLogService.cs" />
+    <Compile Include="Services\UserBranchService.cs" />
+    <Compile Include="Services\UserProfileService.cs" />
+    <Compile Include="SysSet.cs" />
+    <Compile Include="TransactionLog.cs" />
+    <Compile Include="UserBranch.cs" />
+    <Compile Include="UserProfileSup.cs" />
+    <Compile Include="ViewModel\ApprovalProcessVM.cs" />
+    <Compile Include="ViewModel\BoundaryVM.cs" />
+    <Compile Include="ViewModel\FileProcessInfos.cs" />
+    <Compile Include="ViewModel\FileInfos.cs" />
+    <Compile Include="ViewModel\FileProcessAction.cs" />
+    <Compile Include="ViewModel\CommonPVVM.cs" />
+    <Compile Include="ViewModel\NewFile.cs" />
+    <Compile Include="ViewModel\NewStaff.cs" />
+    <Compile Include="ViewModel\ProcessActionPdfVM.cs" />
+    <Compile Include="ViewModel\ProcessActionPreviewVM.cs" />
+    <Compile Include="ViewModel\SignaturePin.cs" />
+    <Compile Include="ViewModel\EmailVModel.cs" />
+    <Compile Include="ViewModel\EmpFuncVModel.cs" />
+    <Compile Include="ViewModel\EmployeeVmodel.cs" />
+    <Compile Include="ViewModel\RegisterVModel.cs" />
+    <Compile Include="ViewModel\VMLogin.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\App.Domain.dll" />
+    <Content Include="bin\Debug\App.Domain.pdb" />
+    <Content Include="bin\Debug\System.Web.Mvc.dll" />
+    <Content Include="bin\Debug\System.Web.Mvc.xml" />
+    <Content Include="bin\Release\App.Domain.dll" />
+    <Content Include="bin\Release\App.Domain.pdb" />
+    <Content Include="bin\Release\System.Web.Mvc.dll" />
+    <Content Include="bin\Release\System.Web.Mvc.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

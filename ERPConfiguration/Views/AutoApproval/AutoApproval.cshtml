@@ -1,0 +1,328 @@
+﻿@model App.Domain.ViewModel.ApprovalProcessVM
+@{
+    ViewBag.Title = "AutoApproval";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /*table.dataTable.select tbody tr,
+    table.dataTable thead th:first-child {
+        cursor: pointer;
+    }
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    .col-md-12 {
+        padding: 0 !important;
+    }
+
+    .required:after {
+        content: " *";
+        font-weight: bold;
+        color: red;
+    }*/
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 13px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove;
+    }
+
+    legend {
+        display: block;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: none;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important;text-decoration:none;" id="dcTitle">Automatic Approval Process</text>
+                    </h3>
+                </div>
+                <fieldset>
+                    <div class="col-md-12" style="margin-top: 10px !important;">
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblEmp">Process No</label>
+                            <div class="input-group form-group col-md-8">
+                                @Html.TextBoxFor(x => x.ProcessNo, new { @class = "form-control", @Value = ViewBag.ProcessNo })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblCode">File No</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="FileNo" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblProj">Referance No</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="RefNo" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblBranch">Date</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="date" id="Date" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblProj">Subject</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="Subject" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblBranch">Description</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="text" id="Description" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3" id="lblProj">Attachments</label>
+                            <div class="input-group form-group col-md-8">
+                                <input type="file" id="AttachmentPath" class="form-control" />
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="col-md-12" style="text-align:end">
+                        <input type="button" class="btn btn-primary" id="btnadd" style="width:100px; margin-right:47px" />
+                        @*<input type="button" value="UPDATE" class="btn btn-primary" id="btnupdate" style="width:100px; margin-right:47px" />*@
+                    </div>
+                </fieldset>
+                  <fieldset>
+                      <div class="col-md-12">
+                          <div class="col-md-4">
+                              <label class="col-md-3" id="lblProj">Action</label>
+                              <div class="input-group form-group col-md-8">
+                                  @Html.DropDownListFor(x => x.ActID, null, "Search Type", new { @class = "form-control select2*", @Value = ViewBag.ActID })
+                                 @* <input type="text" id="ActID" class="form-control" />*@
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <label class="col-md-3" id="lblProj">Action By</label>
+                              <div class="input-group form-group col-md-8">
+                                  @Html.DropDownListFor(x => x.ActionBy, null, "Search Type", new { @class = "form-control select2*", @Value = ViewBag.ActionBy })
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <label class="col-md-3" id="lblProj">Date</label>
+                              <div class="input-group form-group col-md-8">
+                                  <input type="date" id="Dates" class="form-control" />
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                          <div class="col-md-4">
+                              <label class="col-md-3" id="lblProj">File No</label>
+                              <div class="input-group form-group col-md-8">
+                                  <input type="text" id="fileNo" class="form-control" />
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <label class="col-md-3" id="lblProj">Mark To</label>
+                              <div class="input-group form-group col-md-8">
+                                  @Html.DropDownListFor(x => x.MarkTo, null, "Search Type", new { @class = "form-control select2*", @Value = ViewBag.MarkTo })
+                              </div>
+                          </div>
+                          
+                      </div>
+                      <div class="col-md-4">
+                          <label class="col-md-3" id="lblProj">Email Notification</label>
+                          <div class="input-group form-group col-md-8">
+                              @*<input type="text" id="EmailNotif" class="form-control" />*@
+                              <a class="btn btn-danger" onclick="SendEmail()">Click to Send Email</a>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <input type="button" class="btn btn-primary" id="nmail" style="width:100px; margin-right:47px" />
+                      </div>
+                    </fieldset>
+                <fieldset>
+                    <div class="row col-md-12">
+                        <div class="col-md-12" style="padding-left:20px;padding-top:20px">
+                            <table class="table table-bordered table-responsive" id="datatableLoanSchd">
+                                <thead>
+                                    <tr>
+                                        <th>SL NO</th>
+                                        <th>Days</th>
+                                        <th>Hours</th>
+                                        <th>File No</th>
+                                        <th>Ref No</th>
+                                        <th>Subject</th>
+                                        <th>Create Date Time</th>
+                                        <th>Created by</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                        <th>Preview</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+}
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+    <script>
+
+        /////////////////Save////////////////////////
+
+        function clearReceive() {
+            $("#ProcessNo").val();
+            $("#FileNo").val();
+            $("#RefNo").val();
+            $("#Date").val();
+            $("#Subject").val();
+            $("#Description").val();
+            $("#Attachment").val();
+        }
+
+
+        var loadInfo = {
+            ProcessNo: "",           
+            FileNo: "",
+            RefNo: "",
+            Date: "",
+            Subject: "",
+            Description: "",
+            Attachment: ""
+
+        };
+
+        function setOrder() {
+            loadInfo.ProcessNo = $("#ProcessNo").val();
+            loadInfo.FileNo = $("#FileNo").val();
+            loadInfo.RefNo = $("#RefNo").val();
+            loadInfo.Date = $("#Date").val();
+            loadInfo.Subject = $("#Subject").val();
+            loadInfo.Description = $("#Description").val();
+            loadInfo.Attachment = $("#Attachment").val();          
+        }
+
+        $(document).on("click", "#btnadd", function () {
+            //  SubType = $("#SubType").val();
+            setOrder();
+            //var validate = validateOnSave(loadInfo);
+            //if (validate != "") {
+            //    alert(validate);
+            //    return;
+            //}
+            $.ajax({
+                url: '@Url.Action("Savepa_fpmain", "AutoApproval")',
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify({ pafpmain: loadInfo }),
+                type: 'POST',
+                dataType: 'json',
+                success: function (datas) {
+                    if (datas == 1) {
+                        swal({
+                            title: "Ok",
+                            text: "Successfully Saved!",
+                            type: "success",
+                            closeOnConfirm: true
+                        },
+
+                        function () {
+                            location.reload();
+                            clearReceive();
+
+                        });
+
+                    }
+                    else if (datas == "X") {
+                        swal({
+                            title: "Sorry",
+                            text: "No Save Permission for this User",
+                            type: "warning"
+                        });
+                    }
+                    else if (datas == 0) {
+                        swal(
+                            'Sorry!',
+                            'All (*) field are required. These Fields can not be empty!!!',
+                            'warning'
+                        );
+                        $("#save").prop("disabled", false);
+                    }
+                    else if (datas == 3) {                           //save  data
+                        swal({
+                            title: "Sorry!",
+                            text: "Data Already Exists",
+                            type: "warning"
+                        });
+                    }
+
+                        //});
+
+                        //}
+                    else {
+                        swal(
+                            'Sorry!',
+                            'Please Add item in the Table.!!!',
+                            'warning'
+                            );
+                    }
+                }//success
+            });//ajax
+        });
+        var SendEmail = function () {
+      
+            $.ajax({
+                url: '@Url.Action("SendEmailToUser", "AutoApproval")',
+                contentType: "application/json;charset=utf-8",               
+                type: 'POST',               
+                success: function (datas) {
+
+                    alert("Success");
+
+                }//success
+            })//ajax
+      
+
+        }
+    </script>
+
+   }

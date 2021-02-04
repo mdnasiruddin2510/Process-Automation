@@ -1,0 +1,34 @@
+
+CREATE TABLE [dbo].[BillPayment](
+	[BillPaymentId] [int] IDENTITY(1,1) NOT NULL,
+	
+	[PaymentNo] [nvarchar](8) NOT NULL,
+	[PaymentDate] [datetime] NOT NULL,
+	[SubCode] [nvarchar](30) NOT NULL,
+	[PaymentAcc] [nvarchar](128) NULL,
+	[ChqNo] [nvarchar](128) NULL,
+	[ChqDate] [datetime] NOT NULL,
+	[Amount] [numeric](18, 2) NULL,
+	[Remarks] [nvarchar](max) NULL,
+	[FinYear] [varchar](7) NULL,
+	[ProjCode] [char](2) NULL,
+	[BranchCode] [char](2) NULL,
+	[VchrNo] [nvarchar](50) NULL,
+	[GLPost] [bit] NOT NULL,
+	[AdjWithBill] [bit] NULL,
+	[PaidBy] [int] NULL,
+	[ApproveBy] [int] NULL,
+	[ApproveDate] [datetime] NULL,
+	[JobNo] [nvarchar](50) NULL,
+ CONSTRAINT [PK_BillPayment_1] PRIMARY KEY CLUSTERED 
+(
+	[BillPaymentId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

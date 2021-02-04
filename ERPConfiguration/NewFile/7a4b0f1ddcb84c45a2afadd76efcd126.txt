@@ -1,0 +1,82 @@
+
+Delete from CashOperation
+DBCC CHECKIDENT('CashOperation', RESEED, 1)
+Delete from BankOperation
+DBCC CHECKIDENT('BankOperation', RESEED, 1)
+truncate table BankReceipt
+delete from CashReceipt
+truncate table cashreceiptsubdetails
+truncate table ChequeReceipt
+truncate table ChequeReceiptExt
+truncate table ChequeArchive
+truncate table CustAdjExt
+truncate table CustAdjustment
+truncate table CustAdjExt
+truncate table moneyReceipt
+truncate table moneyReceiptExt
+truncate table deposit
+delete from expense
+truncate table expenseSubdetails
+truncate table horemit
+truncate table Payment
+truncate table transactionlog
+truncate table vounoassign
+truncate table withdraw
+truncate table tmpPurItem 
+truncate table purchaseMain
+truncate table purchaseDetail
+truncate table PurRetMain
+truncate table PurRetDetail
+truncate table tmpAddedItem
+delete from SalesMain
+DBCC CHECKIDENT ('SalesMain', reseed, 1)
+truncate table SaleRetMain
+truncate table SaleRetDetail
+truncate table receiveDetails
+delete from receiveMain
+truncate table SalesDetail
+delete from IssueMain
+truncate table IssueDetails
+truncate table TVchrMain
+truncate table TVchrDetail
+delete from PVchrMain
+DBCC CHECKIDENT ('PVchrMain', reseed, 1)
+truncate table PVchrDetail
+truncate table PVchrMainExt
+truncate table PVchrTrack
+truncate table VchrMain
+truncate table VchrDetail
+truncate table VchrMainExt
+truncate table VchrTrack
+truncate table tmpAddedItem
+truncate table TransactionLog
+truncate table payinvRecv
+
+
+--truncate table itemwiseDisc
+--truncate table itemwiseVAT
+--truncate table JobInfo
+--truncate table LotDT
+--truncate table currentStock
+--truncate table Costledger
+--truncate table openbal
+--truncate table subOpenBal
+--truncate table openingstock
+--truncate table SubsidiaryInfo_Ext
+--delete from subsidiaryInfo
+--truncate table ItemMap
+--delete from itemInfo
+
+--delete from newchart
+--DBCC CHECKIDENT('newchart', RESEED, 1)
+--SET IDENTITY_INSERT [dbo].[NewChart] ON
+--INSERT [dbo].[NewChart] ([Accode], [Id], [AcSyscode], [AcName], [ParentCode], [LevelNo], [B_S], [I_S], [T_B], [ParentAcCode], [AccType], [OldCode], [CorpCode], [Stock], [Subsidiary], [BranchCode]) VALUES (N'1', 345, 1, N'Assets', 0, 1, 0, 0, 1, N'', NULL, NULL, N'0', 0, 0, N'0')
+--INSERT [dbo].[NewChart] ([Accode], [Id], [AcSyscode], [AcName], [ParentCode], [LevelNo], [B_S], [I_S], [T_B], [ParentAcCode], [AccType], [OldCode], [CorpCode], [Stock], [Subsidiary], [BranchCode]) VALUES (N'2', 550, 2, N'Liabilities', 0, 1, 0, 0, 1, N'', NULL, NULL, N'0', 0, 0, N'0')
+--INSERT [dbo].[NewChart] ([Accode], [Id], [AcSyscode], [AcName], [ParentCode], [LevelNo], [B_S], [I_S], [T_B], [ParentAcCode], [AccType], [OldCode], [CorpCode], [Stock], [Subsidiary], [BranchCode]) VALUES (N'3', 596, 3, N'Income', 0, 1, 0, 0, 1, N'', NULL, NULL, N'0', 0, 0, N'0')
+--INSERT [dbo].[NewChart] ([Accode], [Id], [AcSyscode], [AcName], [ParentCode], [LevelNo], [B_S], [I_S], [T_B], [ParentAcCode], [AccType], [OldCode], [CorpCode], [Stock], [Subsidiary], [BranchCode]) VALUES (N'4', 601, 4, N'Expenses', 0, 1, 0, 0, 1, N'', NULL, NULL, N'0', 0, 0, N'0')
+--SET IDENTITY_INSERT [dbo].[NewChart] OFF
+
+
+
+--delete from TransactionLog where TranForm <> 'Subsidiary' and TranForm <> 'Item'
+

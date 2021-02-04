@@ -1,0 +1,20 @@
+USE [ASPL_DEMO]
+GO
+CREATE TABLE [dbo].[BillPaymentExt](
+	[BillPaymentExtId] [bigint] IDENTITY(1,1) NOT NULL,
+	[BillPaymentId] [int] NOT NULL,
+	[PurNo] [nvarchar](50) NOT NULL,
+	[OrderNo] [nvarchar](50) NULL,
+	[InstallNo] [int] NULL,
+	[InstallDate] [date] NULL,
+	[Amount] [numeric](18, 2) NULL,
+ CONSTRAINT [PK_BillWisePayment_1] PRIMARY KEY CLUSTERED 
+(
+	[BillPaymentId] ASC,
+	[PurNo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

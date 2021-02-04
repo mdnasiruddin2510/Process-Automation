@@ -1,0 +1,17 @@
+truncate table MoneyReceipt
+truncate table MoneyReceiptExt
+truncate table CashReceipt
+truncate table CashReceiptSubDetails
+truncate table PVchrMain
+truncate table PVchrDetail
+truncate table PVchrMainExt
+truncate table PVchrTrack
+truncate table VchrMain
+truncate table VchrDetail
+truncate table VchrMainExt
+truncate table VchrTrack
+
+Update SalesMain set ReceiptNo='NULL',ReceiptAmt='NULL',IsPaid='False' 
+delete TransactionLog where TranForm='Cash MR'
+
+select * from TransactionLog where TranForm='Cash MR'

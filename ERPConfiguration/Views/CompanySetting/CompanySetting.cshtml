@@ -1,0 +1,1200 @@
+﻿@*@model App.Domain.CompanyInfo*@
+@{
+    ViewBag.Title = "CompanySetting";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<style>
+    /*table.dataTable.select tbody tr,
+    table.dataTable thead th:first-child {
+        cursor: pointer;
+    }
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    .col-md-12 {
+        padding: 0 !important;
+    }
+
+    .required:after {
+        content: " *";
+        font-weight: bold;
+        color: red;
+    }*/
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 13px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove;
+    }
+
+    .hideme {
+        display: none;
+    }
+
+    legend {
+        display: block;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: none;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important;text-decoration:none;">Company Setting</text>
+                    </h3>
+                </div>
+                <fieldset>
+                    <legend class="idDiSefirst">Company System Setting</legend>
+                    <div id="pnlDiSefirst" @*style="display:none"*@>
+
+
+                        <fieldset>
+
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3">Track Branch Office</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HasBranch" name="HasBranch" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HasBranch" name="HasBranch" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3">Track Unit Office</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HasUnit" name="HasUnit" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HasUnit" name="HasUnit" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3">Track Department</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HasDept" name="HasDept" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HasDept" name="HasDept" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3">Not Profit</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="NotProfit" name="NotProfit" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="NotProfit" name="NotProfit" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset>
+
+                            <div class="col-md-6">
+                                <label class="col-md-3" id="autovouaftersave"> Auto Voucher No after Save</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="autovouaftersave" name="autovouaftersave" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="autovouaftersave" name="autovouaftersave" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3">Job Caption</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="ShowJobName" name="ShowJobName" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="ShowJobName" name="ShowJobName" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3" id="MaintJob">Track Job</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="MaintJob" name="MaintJob" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="MaintJob" name="MaintJob" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3" id="recurringvoucher">Recurring Voucher</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="recurringvoucher" name="recurringvoucher" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="recurringvoucher" name="recurringvoucher" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3" > Line Narration</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HeadWiseNarration" name="HeadWiseNarration" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="HeadWiseNarration" name="HeadWiseNarration" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3">Voucher Digit</label>
+                                    <div class="input-group form-group col-md-3">
+                                        @*@Html.DropDownListFor(x => x.G_S, null, "Select Type", new { @class = "form-control select2*", @Value = ViewBag.G_S })*@
+                                        <select name="VchrLen" id="VchrLen" class="form-control col-md-8" style="float:right">
+
+                                            <option value="">Select</option>
+                                            <option value="5">5 </option>
+                                            <option value="6">6</option>
+                                            <option value="7">7 </option>
+                                            <option value="8">8</option>
+                                            <option value="9">9 </option>
+                                            <option value="10">10 </option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3"> A Subsidiary Control</label>
+                                    <div class="input-group form-group col-md-8">
+
+                                        <div class="col-md-3">
+                                            <input type="radio" id="IsSubsidiaryCtrl" name="IsSubsidiaryCtrl" value="True">
+                                            <label for="On">On</label><br>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="radio" id="IsSubsidiaryCtrl" name="IsSubsidiaryCtrl" value="False">
+                                            <label for="Off">Off</label><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3"> MR Convention</label>
+                                    <div class="input-group form-group col-md-3">
+                                        <input type="text" id="MRConv" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <label class="col-md-3"> Invoice Format</label>
+                                    <div class="input-group form-group col-md-3">
+                                        @*@Html.DropDownListFor(x => x.G_S, null, "Select Type", new { @class = "form-control select2*", @Value = ViewBag.G_S })*@
+                                        <select name="InvoiceFormat" id="InvoiceFormat" class="form-control col-md-8" style="float:right">
+
+                                            <option value="">Select</option>
+                                            <option value="1">1 </option>
+                                            <option value="2">2</option>
+                                            <option value="3">3 </option>
+                                            <option value="4">4 </option>
+                                            <option value="5">5 </option>
+                                            <option value="6">6</option>
+                                            <option value="7">7 </option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Stock Check</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="Stockedcheck" name="Stockedcheck" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="Stockedcheck" name="Stockedcheck" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Tax</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="MainTax" name="MainTax" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="MainTax" name="MainTax" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Vat</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="MaintVat" name="MaintVat" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="MaintVat" name="MaintVat" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Product Grouping</label>
+                            <div class="input-group form-group col-md-8" >
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="OnlyGrp" name="OnlyGrp" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="OnlyGrp" name="OnlyGrp" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Sub group</label>
+                            <div class="input-group form-group col-md-8" >
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="GrpAndSubGrp" name="GrpAndSubGrp" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="GrpAndSubGrp" name="GrpAndSubGrp" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Sub Sub group</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="SubSubGrp" name="SubSubGrp" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="SubSubGrp" name="SubSubGrp" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Track Location</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="HasLoc" name="HasLoc" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="HasLoc" name="HasLoc" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Track Lot</label>
+                            <div class="input-group form-group col-md-8" >
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="MaintLot" name="MaintLot" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="MaintLot" name="MaintLot" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Make Challan Automatically</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="MakeChallanAuto" name="MakeChallanAuto" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="MakeChallanAuto" name="MakeChallanAuto" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Store Transfer Auto Receive at Destination</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="MakeRecvAuto" name="MakeRecvAuto" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="MakeRecvAuto" name="MakeRecvAuto" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3"> Packing List</label>
+                            <div class="input-group form-group col-md-8">
+
+                                <div class="col-md-3">
+                                    <input type="radio" id="MaintPacking" name="MaintPacking" value="True">
+                                    <label for="On">On</label><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="radio" id="MaintPacking" name="MaintPacking" value="False">
+                                    <label for="Off">Off</label><br>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <div class="hider1" style="display:none">
+
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3"> Cash Basis</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="CashBasis" name="CashBasis" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="CashBasis" name="CashBasis" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3"> Accrual Basis</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="ActualBasis" name="ActualBasis" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="ActualBasis" name="ActualBasis" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3"> Multiple Years</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="MultiFinYear" name="MultiFinYear" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="MultiFinYear" name="MultiFinYear" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3"> Subsidiary Account</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="HasParty" name="HasParty" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="HasParty" name="HasParty" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3">Voucher Type wise Serial</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="VouSlTypeWise" name="VouSlTypeWise" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="VouSlTypeWise" name="VouSlTypeWise" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3"> Level of COA</label>
+                                <div class="input-group form-group col-md-3">
+
+                                    <select name="COA" id="COA" class="form-control col-md-8" style="float:right">
+
+                                        <option value="">Select</option>
+                                        <option value="4">4 </option>
+                                        <option value="5">5 </option>
+                                        <option value="6">6</option>
+                                        <option value="7">7 </option>
+                                        <option value="8">8</option>
+                                        <option value="9">9 </option>
+                                        <option value="10">10 </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <label class="col-md-3">Track Old Account Code</label>
+                                <div class="input-group form-group col-md-8">
+
+                                    <div class="col-md-3">
+                                        <input type="radio" id="On" name="gender" value="True">
+                                        <label for="On">On</label><br>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="radio" id="Off" name="gender" value="False">
+                                        <label for="Off">Off</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="col-md-3" style="text-align:end">
+                    @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                    *@
+                    <input type="button" value="SAVE" class="btn btn-primary" id="btnaddSysset" style="width:100px; margin-right:-9px" />
+
+                    @*
+                        </div>*@
+                </div>
+            </div>
+            </fieldset>
+
+
+            <fieldset class=" majorpoints">
+                <legend class="idDiSe">Company Account Per Level Digit Setting</legend>
+                <div id="pnlDiSe" style="display:none">
+
+                    @*<div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Level Length</label>
+                            <div class="input-group form-group col-md-3">
+                                <input type="text" id="LevelLength" class="form-control" />
+                            </div>
+                        </div>
+                    </div>*@
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Per Level Digit</label>
+                            <div class="input-group form-group col-md-3">
+                                <select id="LevelDig" class="form-control col-md-8" style="float:right">
+                                    <option value="">Select</option>
+                                    <option value="4">4 </option>
+                                    <option value="5">5 </option>
+                                    <option value="6">6</option>
+                                    <option value="7">7 </option>
+                                    <option value="8">8</option>
+                                    <option value="9">9 </option>
+                                    <option value="10">10 </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="text-align:end">
+
+                        <input type="button" value="SAVE" class="btn btn-primary" id="btnaddLevelLen" style="width:100px; margin-right:-9px" />
+
+                    </div>
+
+                    <div class="col-sm-12 col-md-12" style="margin-top: 10px; margin-bottom: 10px;" id="pnlDT">
+                        <div class="row col-sm-12 col-md-12" style="border:1px solid; border-color:#adcceb; width:100%">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12" style="padding:1px 18px 1px 18px">
+                                    <br />
+                                    <table class="table table-bordered table-responsive" id="Add-datatable" style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th width="5%">SL</th>
+                                                <th width="10%">Level&nbsp;No</th>
+                                                <th width="10%">Level&nbsp;Length</th>
+                                                <th width="10%">Level&nbsp;Digit</th>
+                                                <th width="5%">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbodyId"></tbody>
+                                    </table>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="majorpoints">
+                @*<button class="idDiSelast">Company Account Minimum Entry Level Setting</button>*@
+                <legend class=" idDiSelast">Company Account Minimum Entry Level Setting</legend>
+                <div id="pnlDiSelast" style="display:none">
+
+                    @*<label type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Account Minimum Level</label>
+                        <div id="demo" class="collapse"> </div>*@
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Minimum Entry Level</label>
+                            <div class="input-group form-group col-md-3">
+                                <input type="text" id="MinLevel" value="3" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <label class="col-md-3">Level Separator</label>
+                            <div class="input-group form-group col-md-3">
+                                <select name="Sepa" id="Sepa" class="form-control col-md-8" style="float:right">
+                                    <option value="">Select</option>
+                                    <option value=".">. </option>
+                                    <option value="-">-</option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="text-align:end">
+                        @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                        *@
+                        <input type="button" value="SAVE" class="btn btn-primary" id="btnaddMinLev" style="width:100px; margin-right:-9px" />
+
+                        @*
+                            </div>*@
+                    </div>
+                </div>
+
+            </fieldset>
+
+        </div>
+    </div>
+    </div>
+}
+
+
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+
+    <script>$("#VchrLen").select2()</script>
+    <script>$("#Sepa").select2()</script>
+    <script>$("#LevelDig").select2()</script>
+    <script>
+        //$('.majorpointslegend').click(function () {
+        //    $(this).find('.hider').toggle();
+        //});
+
+        $(document).on("click", ".idDiSefirst", function () {
+            $("#pnlDiSefirst").toggle();
+        });
+
+        $(document).on("click", ".idDiSelast", function () {
+            $("#pnlDiSelast").toggle();
+        });
+
+
+        $(document).on("click", ".idDiSe", function () {
+            $("#pnlDiSe").toggle();
+        });
+
+
+        Addindatatable();
+        function Addindatatable() {
+            var table = $("#Add-datatable").DataTable({
+                "scrollX": true,
+                "scrollY": 200,
+                "paging": false,
+                "ordering": false,
+                "info": false,
+                "searching": false,
+                "ajax": "../CompanySetting/GetAllDataForLevelLen",
+                "columns": [
+                           { "data": null, "bSortable": false },
+                           { "data": "LevelNo" },
+                           { "data": "LevelLength" },
+                           { "data": "LevelDig" },
+
+
+                           {
+                               mRender: function (data, type, row) {
+                                   if (row.LevelNo > 3) {
+
+                                       return '<a href="#" class="on-default remove-row deleteSup largeSpace" data-id="1" id="delete" value="' + row.LevelNo + '">'
+                                            + ' <i class="glyphicon glyphicon-trash"></i> </a>'
+                                   }
+                                   else {
+                                       return '';
+                                   }
+                               }
+
+                           },
+                ],
+                "fnCreatedRow": function (row, data, index) {
+                    $('td', row).eq(0).html(index + 1);
+                }
+
+
+            });
+        }
+
+        /////////////////Save////////////////////////
+
+        var loadInfo = {
+
+            HasBranch: "",
+            HasUnit: "",
+            HasDept: "",
+            NotProfit: "",
+            CashBasis: "",
+            ActualBasis: "",
+            MultiFinYear: "",
+            HasParty: "",
+            VouSlTypeWise: "",
+            HeadWiseNarration: "",
+            RecurringVoucher: "",
+            MaintJob: "",
+            autovouaftersave: "",
+            ShowJobName:"",
+            VchrLen: "",
+            IsSubsidiaryCtrl: "",
+            MRConv: "",
+            InvoiceFormat: "",
+            Stockedcheck: "",
+            HasLoc: "",
+            MaintLot: "",
+            MakeChallanAuto: "",
+            MakeRecvAuto: "",
+            MaintPacking: "",
+            MaintVAT: "",
+            MainTax: "",
+            OnlyGrp: "",
+            GrpAndSubGrp: "",
+            SubSubGrp: "",
+            Action: ""
+
+        };
+        function setOrder() {
+
+            loadInfo.HasBranch = $("#HasBranch").val();
+            loadInfo.HasUnit = $("#HasUnit").val();
+            loadInfo.HasDept = $("#HasDept").val();
+            loadInfo.NotProfit = $("#NotProfit").val();
+            loadInfo.CashBasis = $("#CashBasis").val();
+            loadInfo.ActualBasis = $("#ActualBasis").val();
+            loadInfo.MultiFinYear = $("#MultiFinYear").val();
+            loadInfo.HasParty = $("#HasParty").val();
+            loadInfo.VouSlTypeWise = $("#VouSlTypeWise").val();
+            loadInfo.HeadWiseNarration = $("#HeadWiseNarration").val();
+            loadInfo.RecurringVoucher = $("#RecurringVoucher").val();
+            loadInfo.MaintJob = $("#MaintJob").val();
+            loadInfo.autovouaftersave = $("#autovouaftersave").val();
+            loadInfo.ShowJobName = $("#ShowJobName").val();
+            loadInfo.VchrLen = $("#VchrLen").val();
+            loadInfo.IsSubsidiaryCtrl = $("#IsSubsidiaryCtrl").val();
+            loadInfo.MRConv = $("#MRConv").val();
+            loadInfo.InvoiceFormat = $("#InvoiceFormat").val();
+            loadInfo.Stockedcheck = $("#Stockedcheck").val();
+            loadInfo.HasLoc = $("#HasLoc").val();
+            loadInfo.MaintLot = $("#MaintLot").val();
+            loadInfo.MakeChallanAuto = $("#MakeChallanAuto").val();
+            loadInfo.MakeRecvAuto = $("#MakeRecvAuto").val();
+            loadInfo.MaintPacking = $("#MaintPacking").val();
+            loadInfo.MaintVAT = $("#MaintVAT").val();
+            loadInfo.MainTax = $("#MainTax").val();
+            loadInfo.OnlyGrp = $("#OnlyGrp").val();
+            loadInfo.GrpAndSubGrp = $("#GrpAndSubGrp").val();
+            loadInfo.SubSubGrp = $("#SubSubGrp").val();
+        }
+
+        function clearReceive() {
+            $("#HasBranch").val();
+            $("#HasUnit").val();
+            $("#HasDept").val();
+            $("#NotProfit").val();
+            $("#CashBasis").val();
+            $("#ActualBasis").val();
+            $("#MultiFinYear").val();
+            $("# HasParty").val();
+            $("#VouSlTypeWise").val();
+            $("#HeadWiseNarration").val();
+            $("#RecurringVoucher").val();
+            $("# MaintJob").val();
+            $("#autovouaftersave").val();
+            $("#ShowJobName").val();
+            $("# VchrLen").val();
+            $("#IsSubsidiaryCtrl").val();
+            $("# MRConv").val();
+            $("#InvoiceFormat").val();
+            $("#Stockedcheck").val();
+            $("#HasLoc").val();
+            $("#MaintLot").val();
+            $("# MakeChallanAuto").val();
+            $("# MakeRecvAuto").val();
+            $("# MaintPacking").val();
+            $("#MaintVAT").val();
+            $("# MainTax").val();
+            $("# OnlyGrp").val();
+            $("# GrpAndSubGrp").val();
+            $("# SubSubGrp").val();
+
+
+            // $("#G_S").val($('#G_S option:first-child').val()).trigger('change.select2');
+
+        }
+        $(document).on("click", "#btnaddSysset", function () {
+            setOrder();
+            //var validate = validateOnSave(loadInfo);
+            //if (validate != "") {
+            //    alert(validate);
+            //    return;
+            //}
+            //  if (orders != 0) {
+            $.ajax({
+                url: '@Url.Action("SaveSysSet", "CompanySetting")',
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify({ Sysset: loadInfo }),
+                type: 'POST',
+                dataType: 'json',
+                success: function (datas) {
+                    if (datas == 1) {
+                        swal({
+                            title: "Ok",
+                            text: "Successfully Saved!",
+                            type: "success",
+                            closeOnConfirm: true
+                        },
+
+                        function () {
+                            location.reload();
+                            clearItemInfo();
+                        });
+
+                    }
+                    else if (datas == "X") {
+                        swal({
+                            title: "Sorry",
+                            text: "No Save Permission for this User",
+                            type: "warning"
+                        });
+                    }
+                    else if (datas == 0) {
+                        swal(
+                            'Sorry!',
+                            'All (*) field are required. These Fields can not be Empty!!!',
+                            'warning'
+                        );
+                        $("#save").prop("disabled", false);
+                    }
+                    else if (datas == 2) {                           //save  data
+                        swal({
+                            title: "Sorry!",
+                            text: "Data Already Exists",
+                            type: "warning"
+                        });
+                    }
+
+                        //});
+
+                        //}
+                    else {
+                        swal(
+                            'Sorry!',
+                            'Please Add item in the Table.!!!',
+                            'warning'
+                            );
+                    }
+                }//success
+            });//ajax
+            //}//if (orders != 0) {
+
+        });
+
+
+        /////Add data in MInLev Table///////////////////////////////
+        $(document).on("click", "#btnaddMinLev", function () {
+            //setOrder();
+            MinLevel = $("#MinLevel").val();
+            Sepa = $("#Sepa option:selected").val();
+            //var validate = validateOnSave(loadInfo);
+            //if (validate != "") {
+            //    alert(validate);
+            //    return;
+            //}
+            //  if (orders != 0) {
+            $.ajax({
+                url: '@Url.Action("SaveMinLev", "CompanySetting")',
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify({ MinLevel: MinLevel, Sepa: Sepa }),
+                type: 'POST',
+                dataType: 'json',
+                success: function (datas) {
+                    if (datas == 1) {
+                        swal({
+                            title: "Ok",
+                            text: "Successfully Saved!",
+                            type: "success",
+                            closeOnConfirm: true
+                        },
+
+                        function () {
+                            location.reload();
+                            clearItemInfo();
+                        });
+
+                    }
+                    else if (datas == "X") {
+                        swal({
+                            title: "Sorry",
+                            text: "No Save Permission for this User",
+                            type: "warning"
+                        });
+                    }
+                    else if (datas == 0) {
+                        swal(
+                            'Sorry!',
+                            'All (*) field are required. These Fields can not be Empty!!!',
+                            'warning'
+                        );
+                        $("#save").prop("disabled", false);
+                    }
+                    else if (datas == 2) {                           //save  data
+                        swal({
+                            title: "Sorry!",
+                            text: "Data Already Exists",
+                            type: "warning"
+                        });
+                    }
+
+                        //});
+
+                        //}
+                    else {
+                        swal(
+                            'Sorry!',
+                            'Please Add item in the Table.!!!',
+                            'warning'
+                            );
+                    }
+                }//success
+            });//ajax
+            //}//if (orders != 0) {
+
+        });
+
+        /////Add data in LevelLen Table///////////////////////////////
+        $(document).on("click", "#btnaddLevelLen", function () {
+            //setOrder();
+            LevelLength = $("#LevelLength").val();
+            LevelDig = $("#LevelDig option:selected").val();
+            //var validate = validateOnSave(loadInfo);
+            //if (validate != "") {
+            //    alert(validate);
+            //    return;
+            //}
+            //  if (orders != 0) {
+            $.ajax({
+                url: '@Url.Action("SaveLevelLen", "CompanySetting")',
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify({LevelDig: LevelDig }),
+                type: 'POST',
+                dataType: 'json',
+                success: function (datas) {
+                    if (datas == 1) {
+                        swal({
+                            title: "Ok",
+                            text: "Successfully Saved!",
+                            type: "success",
+                            closeOnConfirm: true
+                        },
+
+                        function () {
+                            location.reload();
+                            clearItemInfo();
+                        });
+
+                    }
+                    else if (datas == "X") {
+                        swal({
+                            title: "Sorry",
+                            text: "No Save Permission for this User",
+                            type: "warning"
+                        });
+                    }
+                    else if (datas == 0) {
+                        swal(
+                            'Sorry!',
+                            'All (*) field are required. These Fields can not be Empty!!!',
+                            'warning'
+                        );
+                        $("#save").prop("disabled", false);
+                    }
+                    else if (datas == 2) {                           //save  data
+                        swal({
+                            title: "Sorry!",
+                            text: "Data Already Exists",
+                            type: "warning"
+                        });
+                    }
+
+                        //});
+
+                        //}
+                    else {
+                        swal(
+                            'Sorry!',
+                            'Please Add item in the Table.!!!',
+                            'warning'
+                            );
+                    }
+                }//success
+            });//ajax
+            //}//if (orders != 0) {
+
+        });
+        /////////////////////////////delete data from levelLen//////////////////////
+        $(document).on("click", "#delete", function () {
+            var value = $(this).attr("value");
+
+            swal({
+                title: "Are you sure?",
+                text: "You will not be able to recover this data!",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: false,
+                closeOnCancel: true
+            },
+                function () {
+                    $.ajax({
+                        url: '@Url.Action("DeleteLevelLen", "CompanySetting")',
+                        contentType: "application/json;charset=utf-8",
+                        data: { LevelNo: value },
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (datas) {
+
+                            if (datas == 0 || datas == 2) {
+                                swal("Sorry!! Failed to delete this data.", "fail");
+                            }
+                            else if (datas == 1) {
+                                swal({
+                                    title: "Ok",
+                                    text: "Sucessfully Delete!",
+                                    type: "success",
+                                    closeOnConfirm: true
+
+                                }, function () {
+                                    //clearReceive();
+                                    // loadGroupWiseData();
+                                    location.reload();
+                                });
+                            }
+                            else if (datas == "D") {
+
+                                swal({
+                                    title: "Sorry",
+                                    text: "No Delete Permission for this User",
+                                    type: "warning"
+                                });
+                            }
+                        },
+                        error: function (datas) {
+                            swal("Sorry!! Failed to delete this data.", "fail")
+                        }
+                    });
+                });
+        });
+
+
+    </script>
+}

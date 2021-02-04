@@ -1,0 +1,1043 @@
+﻿@model App.Domain.CustVisit
+@{
+    ViewBag.Title = "CustVisit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    /*table.dataTable.select tbody tr,
+    table.dataTable thead th:first-child {
+        cursor: pointer;
+    }
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    .col-md-12 {
+        padding: 0 !important;
+    }
+
+    .required:after {
+        content: " *";
+        font-weight: bold;
+        color: red;
+    }*/
+
+    .form-control {
+        border: 1px solid #00ffff;
+    }
+
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove;
+    }
+
+    legend {
+        display: block;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: none;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important;text-decoration:none;">Customer Visit</text>
+                    </h3>
+                </div>
+                <div class="panel-body">
+
+                    <div class="input-group form-group col-md-12">
+                        @*<div class="col-md-4" style="text-align:right">
+                                <label class="col-md-4"></label>
+                                <label class="col-md-6 control-label" style="padding-left:initial; text-align:right">
+                                    @Html.ActionLink(
+                                    "Visit waiting for Posting",
+                                    "GetJournalVoucher",
+                                    "CustomerVisit",
+                                    new { Date = "blankDate" },
+                                    new { id = "glPro", }
+                                    )
+                                </label>
+                                <label class="col-md-2 control-label" style="padding-left:initial; padding-right:initial; text-align:left" id="CountNo">(@ViewBag.GLProvition)</label>
+                            </div>*@
+                        @*<div class="col-md-4" style="text-align:left">
+                                <label class="control-label" target="_blank">
+                                    @Html.ActionLink(
+                                    "List of Customer Visit",
+                                    "GetGLEntries",
+                                    "CustomerVisit",
+                                    new { Date = "blankDate" },
+                                    new { id = "GLEntries", }
+                                    )
+                                </label>
+                                <label>(@ViewBag.GLEntries)</label>
+                            </div>*@
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="col-md-3">
+                                <div class="col-md-12">
+                                    <label class="col-md-4">Visit No</label>
+                                    <div class="input-group form-group col-md-8">
+                                        @Html.TextBoxFor(x => x.VisitNo, new { @class = "form-control", @Value = ViewBag.VisitNo })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="col-md-3 required">Customer Group</label>
+                                <div class="input-group form-group col-md-9">
+                                    @Html.DropDownListFor(x => x.CustGrpId, null, "---- Select ----", new { @class = "form-control select2", @Value = ViewBag.CustGrpId })
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="col-md-3 required">Customer Name</label>
+                                <div class="input-group form-group col-md-9">
+                                    @*@Html.DropDownListFor(x => x.CustCode, null, "---- Select ----", new { @class = "form-control select2", @Value = ViewBag.CustCode })*@
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-12">
+                                <label class="col-md-3 required">Group Of Company</label>
+                                <div class="input-group form-group col-md-9">
+                                    @*@Html.DropDownListFor(x => x.CompanyGrpId, null, "---- Select ----", new { @class = "form-control select2", @Value = ViewBag.CompanyGrpId })*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <label class="col-md-4">Visit Location</label>
+                                <div class="input-group form-group col-md-8">
+                                    @*@Html.DropDownListFor(x => x.AreaId, null, "----Select----", new { @class = "form-control" })*@
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <label class="col-md-4" style="padding:5px !important">Visit Date</label>
+                                <div class="input-group form-group col-md-8">
+                                    <input type="text" class="form-control datePage" id="@Html.IdFor(x => x.VisitDate)" value="@DateTime.Today.ToShortDateString()">
+                                    <span class="input-group-addon bg-primary b-0 text-white"><i class="ion-calendar"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <label class="col-md-4">GpsLocation</label>
+                                <div class="input-group form-group col-md-8">
+                                    @Html.TextBoxFor(x => x.GpsLocation, new { @class = "form-control" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <label class="col-md-4">Visit Time</label>
+                                <div class="input-group form-group col-md-8">
+                                    <input type="text" class="form-control" placeholder="HH:MM:SS" id="@Html.IdFor(x => x.VisitTime)" value=@ViewBag.visitTime required="required">
+                                    @*<input type="text" class="form-control" placeholder="HH:MM:SS" id="@Html.IdFor(x => x.VisitTime)" required="required">*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <form>
+                            <fieldset>
+                                <legend>Factory Information</legend>
+                                <div class="col-md-12">
+
+                                    <div class="col-md-6">
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <label class="col-md-3">Name of Chairman</label>
+                                                <div class="input-group form-group col-md-9">
+                                                    @Html.TextBoxFor(x => x.ChairmanName, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="col-md-3">Cell</label>
+                                                <div class="input-group form-group col-md-9">
+                                                    @Html.TextBoxFor(x => x.ChairmanCellNo, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <label class="col-md-3">Name of MD</label>
+                                                <div class="input-group form-group col-md-9">
+                                                    @Html.TextBoxFor(x => x.MDName, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="col-md-3">Cell</label>
+                                                <div class="input-group form-group col-md-9">
+                                                    @Html.TextBoxFor(x => x.MDCellNo, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-3">Factory Zone</label>
+                                                    <div class="input-group form-group col-md-9">
+                                                        @*@Html.DropDownListFor(x => x.ZoneId, null, "----Select----", new { @class = "form-control select2", @Value = ViewBag.ZoneId })*@
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="col-md-12">Contact Person:</label>
+                                            <div class="col-md-3">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-5">Name</label>
+                                                    <div class="input-group form-group col-md-7">
+                                                        @*@Html.TextBoxFor(x => x.PersonName, new { @class = "form-control" })*@
+                                                        <input type="text" id="Name" class="form-control" />
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">Desig.</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @*@Html.TextBoxFor(x => x.PersonDesignation, new { @class = "form-control" })*@
+                                                        <input type="text" id="Designation" class="form-control" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-5">Cell No.</label>
+                                                    <div class="input-group form-group col-md-7">
+                                                        @*@Html.TextBoxFor(x => x.PersonCellNo, new { @class = "form-control" })*@
+                                                        <input type="text" id="CellNo" class="form-control" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-5">Email</label>
+                                                    <div class="input-group form-group col-md-7">
+                                                        @*@Html.TextBoxFor(x => x.PersonEmail, new { @class = "form-control" })*@
+                                                        <input type="text" id="Email" class="form-control" />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="row col-md-12" style="text-align:end">
+                                            <input type="button" value="Add" id="add" class="btn btn-primary" style="width:100px;margin-right:0px;" />
+                                        </div>
+
+                                        <div class="col-md-12 col-md-12" style="margin-top: 10px; margin-bottom: 10px;">
+                                            <div class="row col-md-12 col-md-12" style="border:1px solid; border-color:#adcceb; width:100%">
+                                                <div class="row">
+                                                    <div class="col-md-12 col-md-12" style="padding:1px 18px 1px 18px">
+                                                        <br />
+                                                        <table class="table table-bordered table-responsive" id="Add-datatable" style="width:100%">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>SL</th>
+                                                                    <th>Person&nbsp;Name</th>
+                                                                    <th>Designation</th>
+                                                                    <th>Cell&nbsp;No.</th>
+                                                                    <th>Email</th>
+                                                                    <th>Action</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody id="tbodyId"></tbody>
+
+                                                        </table>
+                                                        <br />
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row col-md-12" style="text-align:end">
+                                            @*<div class="col-md-11" style=" text-align:right;overflow:hidden">
+                                            *@
+
+                                            <input type="hidden" id="sNo" name="sNo" />
+                                            @*<input type="submit" value="Preview" class="btn btn-primary" id="btnPreview" style="width:100px; margin-right:0px" />*@
+                                            <input type="button" value="Save" class="btn btn-primary" id="btnSave" style="width:100px;" />
+                                            <input type="button" value="Update" class="btn btn-primary" id="btnUpdate" style="width:100px;" />
+                                            <input type="button" value="Clear" class="btn btn-primary" id="btnClear" style="width:100px;" />
+
+
+                                            @*
+                                                </div>*@
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-md-12">
+                                            <label class="col-md-6">1.No. Of Machine(Front Loading)</label>
+                                            <div class="input-group form-group col-md-6">
+                                                @Html.TextBoxFor(x => x.MachineFL, new { @class = "form-control" })
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <label class="col-md-6">2.No. Of Machine(Bally)</label>
+                                            <div class="input-group form-group col-md-6">
+                                                @Html.TextBoxFor(x => x.MachineBally, new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">3.No. Of Other Machine(Type-1)</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @Html.TextBoxFor(x => x.MachineType1, new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-3">Remark</label>
+                                                    <div class="input-group form-group col-md-9">
+                                                        @Html.TextBoxFor(x => x.Type1Remark, new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">4.No. Of Other Machine(Type-2)</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @Html.TextBoxFor(x => x.MachineType2, new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-3">Remark</label>
+                                                    <div class="input-group form-group col-md-9">
+                                                        @Html.TextBoxFor(x => x.Type2Remark, new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">Prod.Capasity(per day)</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @Html.TextBoxFor(x => x.ProdCapasity, new { @class = "form-control" })
+                                                        @Html.ValidationMessageFor(x => x.ProdCapasity)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-5">Name Of Buyer</label>
+                                                    <div class="input-group form-group col-md-7">
+                                                        @*@Html.DropDownListFor(x => x.BuyerId, null, "---- Select ----", new { @class = "form-control select2", @Value = ViewBag.BuyerId })*@
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-5">Type Of Prod.</label>
+                                                    <div class="input-group form-group col-md-7">
+                                                        @*@Html.DropDownListFor(x => x.ProdType, null, "---- Select ----", new { @class = "form-control select2", @Value = ViewBag.ProdType })*@
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">Factory Land Ownership</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @*@Html.DropDownListFor(x => x.OwnerId, null, "----Select----", new { @class = "form-control" })*@
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">Tin No.</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @Html.TextBoxFor(x => x.TinNo, new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6">
+                                                <div class="col-md-12">
+                                                    <label class="col-md-6">Bin No.</label>
+                                                    <div class="input-group form-group col-md-6">
+                                                        @Html.TextBoxFor(x => x.BinNo, new { @class = "form-control" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="col-md-3">Remark</label>
+                                            <div class="input-group form-group col-md-9">
+                                                @Html.TextBoxFor(x => x.Remark, new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+    <script>
+
+
+        $(document).ready(function () {
+
+
+            function select2Focus() {
+                var select2 = $(this).data('select2');
+                setTimeout(function () {
+                    if (!select2.opened()) {
+                        select2.open();
+                    }
+                }, 0);
+            }
+
+            $("input:text:visible:first").focus();
+            $("#CustGrpId").select2().one('select2-focus', select2Focus).on("select2-blur", function () { $(this).one('select2-focus', select2Focus) });
+            $("#CompanyGrpId").select2().one('select2-focus', select2Focus).on("select2-blur", function () { $(this).one('select2-focus', select2Focus) });
+            $("#CustCode").select2().one('select2-focus', select2Focus).on("select2-blur", function () { $(this).one('select2-focus', select2Focus) });
+            $("#ZoneId").select2().one('select2-focus', select2Focus).on("select2-blur", function () { $(this).one('select2-focus', select2Focus) });
+            $("#BuyerId").select2().one('select2-focus', select2Focus).on("select2-blur", function () { $(this).one('select2-focus', select2Focus) });
+            $("#ProdType").select2().one('select2-focus', select2Focus).on("select2-blur", function () { $(this).one('select2-focus', select2Focus) });
+
+
+            $('#btnUpdate').hide();
+
+            $("#btnClear").on("click", function () {
+                //location.reload();
+                //clearSalesForm();
+            });
+            //$('#datatable').DataTable({
+            //    responsive: true
+            //});
+            $('#Add-datatable').dataTable({
+                "scrollY": 200,
+                "scrollX": true,
+                "paging": false,
+                "ordering": false,
+                "info": false,
+                "searching": false
+            });
+            //Load Datatable
+            //var table = $('#Add-datatable').dataTable({
+            //    "paging": false,
+            //    "ordering": false,
+            //    "info": false,
+            //    "searching": false
+
+
+            //});
+            var orders = [];
+            var delQtyOrder = [];
+            $("#add").click(function () {
+                var Name=$("#Name").val();
+                var Designation = $("#Designation").val();
+                var CellNo = $("#CellNo").val();
+                var Email = $("#Email").val();
+
+                addOnList();
+                $("tbody#tbodyId tr:even").css({
+                    "background-color": "#e6e8e8"
+
+                });
+
+                clearItemInfo();
+            });
+            function clearItemInfo() {
+                $("#Name").val("");
+                $("#Designation").val("");
+                $("#CellNo").val("");
+                $("#Email").val("");
+                //$("#ExQty").val("");
+            }
+
+
+            function addOnList() {
+                var newAddList = [];
+                var newAddListSl = 0;
+                var Name = $("#Name").val();
+                var Designation = $("#Designation").val();
+                var CellNo = $("#CellNo").val();
+                var Email = $("#Email").val();
+
+                var item = {
+                    Name:Name,Designation: Designation,CellNo:CellNo, Email:Email,Sl:0
+                }
+                const i = orders.findIndex(x=> x.CellNo===CellNo);
+                if (i > -1)
+                {
+                    //var prevQty = parseInt(orders[i].Qty);
+                    //CurrQty = prevQty + parseInt(CurrQty);
+                    item.Name =Name;
+                    item.Designation =Designation;
+                    item.CellNo=CellNo;
+                    item.Email=Email;
+                    orders[i] = item;
+                }
+
+                else if( item.Name=="") {
+                    alert("Please Enter Value ");
+                }
+                else
+                {
+                    item.Sl = orders.length + 1;
+                    orders.push(item);
+                }
+                addOnTable();
+            }
+
+
+
+            function addOnTable()
+            {
+                $('#tbodyId').empty();
+                var sl = 0;
+                $.each(orders, function (index, data) {
+                    sl = sl + 1;
+                    data.Sl = sl;
+                    //if (isEdit == 1) {
+                    //    $("#tbodyId").append("<tr><td>" + sl + "</td><td>"
+                    //                                       + data.ItemCode + "</td><td>"
+                    //                                       + data.ItemName + "</td><td>"
+                    //                                       + data.Qty + "</td><td>"
+                    //                                       + (data.Qty * data.Price).toFixed(2) + "</td><td>"
+                    //                                      + '<a href="#" class="on-default remove-row deleteSup" data-id="' + sl + '" id="delete" value="' + sl + '"><i class="glyphicon glyphicon-trash"></i></a>' + "</td></tr>");
+
+                    //}
+                    //else {
+                    $("#tbodyId").append("<tr><td>" + sl + "</td><td>"
+                                                       + data.Name + "</td><td>"
+                                                       + data.Designation + "</td><td>"
+                                                       + data.CellNo + "</td><td>"
+                                                       + data.Email + "</td><td>"
+                                                      + '<a href="#" class="on-default remove-row deleteSup" data-id="' + sl + '" id="delete" value="' + sl + '"><i class="glyphicon glyphicon-trash"></i></a>' + "</td></tr>");
+
+
+                });
+                //delete  datatable data
+                $(document).on('click', '#delete', function () {
+                    var id = $(this).attr("value");
+
+                    swal({
+                        title: "Are you sure?",
+                        text: "You will not be able to recover this order data!",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "Yes, delete it!",
+                        closeOnConfirm: true
+                    },
+                     function () {
+
+                         var delQtySl = 0;
+                         var delQtyItem =
+                             {
+                                 Name:Name,
+                                 Designation:Designation,
+                                 CellNo:CellNo,
+                                 Email:Email
+                             }
+                         const i = orders.findIndex(_x => _x.Sl === parseInt(id));
+                         if (i > -1)
+                         {
+                             delQtySl++;
+                             delQtyItem.Name = orders[i].Name;
+                             delQtyItem.Designation =orders[i].Designation;
+                             delQtyItem.CellNo = orders[i].CellNo;
+                             delQtyItem.Email = orders[i].Email;
+                             delQtyOrder.push(delQtyItem)
+                         }
+                         @*$.ajax({
+                                 url: '@Url.Action("DeleteFromDB", "Receive")',
+                                 contentType: "application/json;charset=utf-8",
+                                 data: { Qty: Qty, ItemCode:ItemCode,RcvNo:RcvNo },
+                                 dataType: 'json',
+                                 success: function (datas) { }
+                             })*@
+
+                         deleteRow(id);
+                         addOnTable();
+                         swal("Deleted!", "Your imaginary file has been deleted.", "success");
+
+                     });
+                });
+
+
+                function deleteRow(sl) {
+                    var newOrder = [];
+                    var newSl = 0;
+
+                    $.each(orders, function (index, data) {
+
+                        if (data.Sl != sl) {
+                            newSl++;
+                            data.Sl = newSl;
+                            data.Id = 0;
+                            newOrder.push(data);
+                        }
+                    });
+                    orders = new Array();
+                    orders = newOrder;
+
+                }
+            }
+
+
+
+            var loadInfo = {
+                CustGroupId: "",
+                CustCode: "",
+                CompanyGroupId: "",
+                AreaId: "",
+                VisitDate: "",
+                GpsLocation: "",
+                VisitTime: "",
+                ChairmanName: "",
+                ChairmanCellNo: "",
+                MDName: "",
+                MDCellNo: "",
+                ZoneId: "",
+                MachineFL: "",
+                MachineBally: "",
+
+                MachineType1: "",
+                Type1Remark: "",
+                MachineType2: "",
+                Type2Remark: "",
+                ProdCapasity: "",
+                BuyerId: "",
+                ProdType: "",
+                OwnerId: "",
+                TinNo : "",
+                BinNo:"",
+                Remark:"",
+                VisitNo:""
+            };
+            function setOrder() {
+                loadInfo.CustGrpId = $("#CustGrpId").val();
+                loadInfo.CustCode = $("#CustCode").val();
+                loadInfo.CompanyGrpId = $("#CompanyGrpId").val();
+                loadInfo.AreaId = $("#AreaId").val();
+                loadInfo.VisitDate = $("#VisitDate").val();
+                loadInfo.GpsLocation = $("#GpsLocation").val();
+                loadInfo.VisitTime = $("#VisitTime").val();
+                loadInfo.ChairmanName = $("#ChairmanName").val();
+                loadInfo.ChairmanCellNo = $("#ChairmanCellNo").val();
+                loadInfo.MDName = $("#MDName").val();
+                loadInfo.MDCellNo = $("#MDCellNo").val();
+                loadInfo.ZoneId = $("#ZoneId").val();
+                loadInfo.MachineFL = $("#MachineFL").val();
+                loadInfo.MachineBally = $("#MachineBally").val();
+                loadInfo.MachineType1 = $("#MachineType1").val();
+                loadInfo.Type1Remark = $("#Type1Remark").val();
+                loadInfo.MachineType2 = $("#MachineType2").val();
+                loadInfo.Type2Remark = $("#Type2Remark").val();
+                loadInfo.ProdCapasity = $("#ProdCapasity").val();
+                loadInfo.BuyerId = $("#BuyerId").val();
+                loadInfo.ProdType = $("#ProdType").val();
+                loadInfo.OwnerId = $("#OwnerId").val();
+                loadInfo.TinNo = $("#TinNo").val();
+                loadInfo.BinNo = $("#BinNo").val();
+                loadInfo.Remark = $("#Remark").val();
+                loadInfo.VisitNo = $("#VisitNo").val();
+            }
+
+
+            $("#btnClear").on("click", function () {
+                clearReceive();
+                //location.reload();
+            });
+
+
+
+            $(document).on("click","#btnSave",function(){
+                setOrder();
+                var validate = validateOnSave(loadInfo);
+                if (validate != "") {
+                    alert(validate);
+                    return;
+                }
+                if (orders != 0) {
+                    $.ajax({
+                        url: '@Url.Action("SaveCustVisit", "CustVisit")',
+                        contentType: "application/json;charset=utf-8",
+                        data: JSON.stringify({ custVisitMain: loadInfo, contactPerson: orders }),
+                        type: 'POST',
+                        dataType: 'json',
+                        success: function (datas) {
+                            if (datas == 1) {
+                                swal({
+                                    title: "Ok",
+                                    text: "Successfully Saved!",
+                                    type: "success"
+                                },
+
+                                function () {
+                                    clearReceive();
+                                });
+                                $("#save").prop("disabled", false);
+                                orders = [];
+                                $('#tbodyId').empty();
+
+
+                            }
+                            else if (datas == "X") {
+                                swal({
+                                    title: "Sorry",
+                                    text: "No Save Permission for this User",
+                                    type: "warning"
+                                });
+                            }
+                            else if (datas == 0) {
+                                swal(
+                                    'Sorry!',
+                                    'All (*) field are required. These Fields can not be empty!!!',
+                                    'warning'
+                                );
+                                $("#save").prop("disabled", false);
+                            }
+                            else if (data == 2) {                           //save  data
+                                swal({
+                                    title: "Sorry!",
+                                    text: "Data Already Exists",
+                                    type: "warning"
+                                });
+                            }
+
+                                //});
+
+                                //}
+                            else{
+                                swal(
+                                    'Sorry!',
+                                    'Please Add item in the Table.!!!',
+                                    'warning'
+                                    );
+                            }
+                        }//success
+                    });//ajax
+                }//if (orders != 0) {
+
+            });
+
+            function validateOnSave(validOrder) {
+
+                if (!validOrder.CustGrpId.trim().length) {
+                    return "Please select Customer Group.";
+                }
+                if (!validOrder.CustCode.trim().length) {
+                    return "Please select Customer Name.";
+                }
+                if (!validOrder.CompanyGrpId.trim().length) {
+                    return "Please select Company Group.";
+                }
+                if (!validOrder.AreaId.trim().length) {
+                    return "Please select Visit Location.";
+                }
+                if (!validOrder.ProdType.trim().length) {
+                    return "Please select Product Type.";
+                }
+                if (!validOrder.OwnerId.trim().length) {
+                    return "Please select Factory Owner.";
+                }
+                //if (!validOrder.addOnTable.CellNo=="") {
+                //    return "Please Add DataTable.";
+                //}
+                //if (validOrder.Name == "") {
+                //    return "Please Add DataTable";
+                //}
+                return "";
+
+            }
+
+            function clearReceive()
+            {
+
+                $("#VisitNo").val(@ViewBag.VisitNo);
+                $("#CustGrpId").val($('#CustGrpId option:first-child').val()).trigger('change.select2');
+                $("#CustCode").val($('#CustCode option:first-child').val()).trigger('change.select2');
+                $("#CompanyGrpId").val($('#CompanyGrpId option:first-child').val()).trigger('change.select2');
+                $("#AreaId").val($('#AreaId option:first-child').val()).trigger('change.select2');
+                $("#ZoneId").val($('#ZoneId option:first-child').val()).trigger('change.select2');
+                $("#BuyerId").val($('#BuyerId option:first-child').val()).trigger('change.select2');
+                $("#OwnerId").val($('#OwnerId option:first-child').val()).trigger('change.select2');
+                $("#ProdType").val($('#ProdType option:first-child').val()).trigger('change.select2');
+                $("#VisitDate").val("@DateTime.Today.ToShortDateString()");
+                $("#GpsLocation").val("");
+                $("#VisitTime").html("#");
+                $("#ChairmanName").val("");
+                $("#ChairmanCellNo").val("");
+                $("#MDName").val("");
+                $("#MDCellNo").val("");
+                $("#MachineFL").val("");
+                $("#MachineBally").val("");
+                $("#MachineType1").val("");
+                $("#Type1Remark").val("");
+                $("#MachineType2").val("");
+                $("#Type2Remark").val("");
+                $("#ProdCapasity").val("");
+                $("#TinNo").val("");
+                $("#BinNo").val("");
+                $("#Remark").val("");
+            }
+
+
+            @*------------//update  data --------------------------*@
+
+
+            $(document).on("click", "#btnUpdate",
+                                   function () {
+
+                                       $("#btnUpdate").hide();
+                                       $("#btnSave").show();
+                                       setOrder();
+
+                                       var validate =  validateOnSave(loadInfo) ;
+                                       if (validate != "") {
+                                           alert(validate);
+                                           return;
+                                       }
+
+
+                                       $.ajax({
+                                           url: '@Url.Action("UpdateCustVisit", "CustVisit")',
+                                           contentType: "application/json;charset=utf-8",
+                                           data: JSON.stringify({ custVisitMain: loadInfo, contactPerson: orders }),
+                                           type: 'POST',
+                                           dataType: 'json',
+                                           success: function (data) {
+                                               if (data == 1) {
+
+                                                   swal({
+                                                       title: "Ok",
+                                                       text: "All Information Updated Sucessfully!",
+                                                       type: "success"
+                                                   }, function () {
+
+                                                       //loadGridByVNo();
+
+                                                       $("#btnUpdate").prop("disabled", false);
+                                                       //clearOpnBal();
+                                                       clearReceive();
+                                                   });
+
+                                               }
+                                               else if (data == 0) {
+
+                                                   swal({
+                                                       title: "Sorry",
+                                                       text: "An Error Occured During Update",
+                                                       type: "warning"
+                                                   }, function () {
+                                                       $("#btnSave").prop("disabled", false);
+                                                   });
+
+                                               }
+                                               else if (data == 2) {
+
+                                                   swal({
+                                                       title: "Sorry",
+                                                       text: "Data is InCorrect for Update",
+                                                       type: "warning"
+                                                   }, function () {
+                                                       $("#btnSave").prop("disabled", false);
+                                                   });
+
+                                               }
+                                               else if (data == "U") {
+
+                                                   swal({
+                                                       title: "Sorry",
+                                                       text: "No Update Permission for this User",
+                                                       type: "warning"
+                                                   });
+
+                                               }
+
+                                           }
+                                       });
+                                   });
+
+
+
+
+            @*------------// keypress data --------------------------*@
+
+            $("#VisitNo").keypress(function (e) {
+                if (e.which == 13) {
+                    $("#btnSave").hide();
+                    $("#btnUpdate").show();
+
+                    $.ajax({
+                        url: '@Url.Action("GetAllByCode", "CustVisit")',
+                        contentType: "application/json;charset=utf-8",
+                        data: { VisitNo: $("#VisitNo").val() },
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (datas) {
+
+                            if (datas.Source == "undefined") {
+                                alert("error")
+                            }
+                            else {
+
+
+
+                                $("#VisitNo").prop("disabled", true);
+                                $("#CustGrpId").val(datas.CustVisit.CustGrpId).trigger('change.select2');
+                                $("#CustCode").val(datas.CustVisit.CustCode).trigger('change.select2');
+                                $("#CompanyGrpId").val(datas.CustVisit.CompanyGrpId).trigger('change.select2');
+                                $("#AreaId").val(datas.CustVisit.AreaId).trigger('change.select2');
+                                $("#ZoneId").val(datas.CustVisit.ZoneId).trigger('change.select2');
+                                $("#BuyerId").val(datas.CustVisit.BuyerId).trigger('change.select2');
+                                $("#OwnerId").val(datas.CustVisit.OwnerId).trigger('change.select2');
+                                $("#ProdType").val(datas.CustVisit.ProdType).trigger('change.select2');
+                                if (moment(datas.CustVisit.VisitDate).format('MM/DD/YYYY') != moment('01/01/1900').format('MM/DD/YYYY')) {
+                                    $("#VisitDate").datepicker("setDate", DateInDMYformat(datas.CustVisit.VisitDate));}
+
+                                $("#GpsLocation").val(datas.CustVisit.GpsLocation);
+
+
+                                var visithour=datas.CustVisit.VisitTime.Hours;
+                                var visitmin=datas.CustVisit.VisitTime.Minutes;
+                                var visitsecond=datas.CustVisit.VisitTime.Seconds;
+                                var visitTime=visithour+":"+visitmin+":"+visitsecond;
+                                $("#VisitTime").val(visitTime);
+                                $("#ChairmanName").val(datas.CustVisit.ChairmanName);
+                                $("#ChairmanCellNo").val(datas.CustVisit.ChairmanCellNo);
+                                $("#MDName").val(datas.CustVisit.MDName);
+                                $("#MDCellNo").val(datas.CustVisit.MDCellNo);
+                                $("#MachineFL").val(datas.CustVisit.MachineFL);
+                                $("#MachineBally").val(datas.CustVisit.MachineBally);
+                                $("#MachineType1").val(datas.CustVisit.MachineType1);
+                                $("#Type1Remark").val(datas.CustVisit.Type1Remark);
+                                $("#MachineType2").val(datas.CustVisit.MachineType2);
+                                $("#Type2Remark").val(datas.CustVisit.Type2Remark);
+                                $("#ProdCapasity").val(datas.CustVisit.ProdCapasity);
+                                $("#TinNo").val(datas.CustVisit.TinNo);
+                                $("#BinNo").val(datas.CustVisit.BinNo);
+                                $("#Remark").val(datas.CustVisit.Remark);
+                                //$("#RcvNo").val(datas.Main.RcvNo);
+                                //if (moment(datas.Main.RcvdDate).format('MM/DD/YYYY') != moment('01/01/1900').format('MM/DD/YYYY')) {
+                                //    $("#RcvdDate").datepicker("setDate", DateInDMYformat(datas.Main.RcvdDate));
+                                //}
+                                //$("#FromLocCode").val(datas.).trigger('change.select2');
+                                //$("#VchrNo").val(datas.Main.VchrNo);
+                                //$("#ToLocCode").val(datas.Main.RecvFromSubCode).trigger('change.select2');
+                                //$("#Source").val(datas.Main.Source).trigger('change.select2');
+                                //$("#RefNo").val(datas.Main.RefNo);
+                                //$("#ToLocCode").val(datas.Main.ToLocCode).trigger('change.select2');
+                                //$("#Purpose").val(datas.).trigger('change.select2');
+                                //$("#RecvItem").val(datas.Details.ItemName).trigger('change.select2');
+                                //$("#Description").val(datas.Details.Description);
+                                //if (moment(datas.Main.RefDate).format('MM/DD/YYYY') != moment('01/01/1900').format('MM/DD/YYYY')) {
+                                //    $("#RefDate").datepicker("setDate", DateInDMYformat(datas.Main.RefDate));
+                                //}
+
+                                //$("#ItemType").val(datas.Main.ItemType);//.trigger('change.select2');
+                                //$("#Remarks").val(datas.Main.Remarks);
+                                //$("#RcvdByCode").val(datas.Main.RcvdByCode).trigger('change.select2');
+                                //$("#AppByCode").val(datas.Main.AppByCode).trigger('change.select2');
+                                //if (moment(datas.Main.RcvdDate).format('MM/DD/YYYY') != moment('01/01/1900').format('MM/DD/YYYY')) {
+                                //    $("#RcvdDate").datepicker("setDate", DateInDMYformat(datas.Main.RcvdDate));
+                                //}
+                                orders = [];
+                                if (datas.Detail.length > 0) {
+                                    var j = 0;
+                                    $.each(datas.Detail, function (index, data) {
+                                        j++;
+                                        data.Sl = j;
+                                        data.Name = data.Name;
+                                        data.Designation = data.Designation;
+                                        data.CellNo = data.CellNo;
+                                        data.Email = data.Email;
+                                        orders.push(data);
+
+                                    });
+                                    //isEdit = 1;
+                                    addOnTable();
+                                    //addOnList();
+                                }
+
+                            }
+
+                        },
+                        error: function () {
+                            swal("Sorry!! This order no does not exist.", "fail")
+                        }
+                    });
+
+
+                };
+            });
+
+
+        });//READY FN
+
+
+    </script>
+}
+

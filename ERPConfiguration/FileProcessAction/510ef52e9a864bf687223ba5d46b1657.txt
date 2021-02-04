@@ -1,0 +1,4 @@
+Model: Inspiron 15 3000
+Series: Inspiron
+Model Number: 15 3000
+Operating system: Windows 10

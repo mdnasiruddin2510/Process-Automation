@@ -1,0 +1,286 @@
+﻿@model App.Domain.ViewModel.FileProcessAction
+@{
+    ViewBag.Title = "FileProcessAction";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .image-upload>input {
+    display: none;
+    text-align:right;
+}
+</style>
+<link href="~/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+<link href="~/App_Themes/Theme1/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+<link href="~/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+<link href="~/App_Themes/Theme1/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="~/Css/FormDesign.css" rel="stylesheet" />
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-11">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important; text-decoration: none;">File Process Action</text>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="input-group form-group col-md-12">
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-9">
+                            <fieldset>
+                                <div class="col-md-10" style="margin-top:7px; margin-bottom:7px;">
+                                    <label class="col-md-3" id="FileNo" style="padding:initial;margin-right: -8px;">File No</label>
+                                    <div class="form-group col-md-6" disabled="disabled">
+                                        @Html.TextBoxFor(x => x.FileNo, null, new { @class = "form-control", required = "required" })
+                                        @Html.ValidationMessageFor(x => x.FileNo)
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <label class="col-md-3" id="RefNo" style="padding:initial;margin-right: -8px;">Ref No</label>
+                                    <div class="input-group form-group col-md-6">
+                                        <input type="text" class="form-control" id="RefNo" name="RefNo" value="@ViewBag.RefNo" , required="required" />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <label class="col-md-3" id="subject" style="padding:initial;margin-right: -8px;">Subject</label>
+                                    <div class="input-group form-group col-md-6">
+                                        <input type="text" class="form-control" id="subject" name="subject" value="@ViewBag.subject" , required="required" />
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <label class="col-md-3" id="descrip" style="padding:initial;margin-right: -8px;">Description</label>
+                                    <div class="input-group form-group col-md-6">
+                                        @Html.TextAreaFor(x => x.Description, new { @class = "form-control col-md-8 select2" })
+                                        @Html.ValidationMessageFor(x => x.Description)
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <label class="col-md-3" id="Attach">Attachment File</label>
+                                   
+                                </div>
+                                <div class="row col-md-8" style="text-align:right; margin-bottom:7px;">
+                                    <input type="image" id="Printimage" src="~/Images/Icons/printer.png" style="width:40px;" />
+                                </div>
+                            </fieldset>
+                            <div class="col-md-10" style="margin-top:7px">
+                                <div class="col-md-10">
+                                    <label class="col-md-4" id="descrip" style="padding:initial;margin-right: -8px;">Note</label>
+                                    <div class="input-group form-group col-md-8">
+                                        @Html.TextAreaFor(x => x.Note, new { @class = "form-control col-md-8 select2" })
+                                        @Html.ValidationMessageFor(x => x.Note)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="col-md-3">
+                                    <label class="col-md-3" id="Attach">Attachment</label>
+                                   
+                                </div>
+                                <div class="col-md-7">
+                                    <input type="file" multiple="multiple" id="@Html.IdFor(x => x.AttachFile)" required="required" style="display: !important; font: inherit !important">
+                                    @*@Html.TextBoxFor(ViewModel => ViewModel.AttachFile, "", new { @type = "file", @class = "image-upload" })@*, @multiple = "multiple"*@
+                                    @Html.ValidationMessageFor(ViewModel => ViewModel.AttachFile, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                                <div class="col-md-10">
+                                    <div class="col-md-10">
+                                        <label class="col-md-4" id="reporting" style="padding:initial;margin-right: -8px;">Mark To</label>
+                                        <div class="input-group form-group col-md-8">
+                                            <input type="text" class="form-control" id="MarkTo" name="MarkTo" value="@ViewBag.MarkTo" , required="required" />
+                                            @*@Html.DropDownListFor(x => x.MarkTo, null, "--- Select ---", new { @class = "form-control select2", required = "required", @Value = ViewBag.MarkTo })
+                                            @Html.ValidationMessageFor(x => x.MarkTo)*@
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2" style="text-align:left">
+                                        @*<input type="button" class="btn" value="Add" id="btnMark" />*@
+                                        @*@Html.ActionLink("Add", "NewStaff", "NewStaff")*@
+                                        <a href='@Url.Action("NewStaff", "NewStaff")'>
+                                            <img src='@Url.Content("~/Images/Icons/addCircle.png")' align="middle" width="40" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <label class="col-md-4"> Date</label>
+                                    <div class="input-group form-group col-md-8">
+                                        <input type="text" class="form-control datePage" placeholder="dd/mm/yyyy" id="@Html.IdFor(x => x.Date)" value="@DateTime.Today.ToShortDateString()" required="required">
+                                        <span class="input-group-addon bg-primary b-0 text-white"><i class="ion-calendar"></i></span>
+                                    </div>
+                                </div>
+                            <div class="col-md-12">
+                                <div class="col-md-6">                                   
+                                        <label class="col-md-5"></label>
+                                        <div class="col-md-7 checkbox checkbox-primary">
+                                            <input type="checkbox" name="EmailNoti" id="EmailNoti" /><label>Email Notification</label>
+                                        </div>                                  
+                                </div>
+                                <div class="col-md-6">
+                                  
+                                    <label class="col-md-4"></label>
+                                    <div class="col-md-8 checkbox checkbox-primary">
+                                        <input type="checkbox" name="SmsNoti" id="SmsNoti" /><label>SMS Notification</label>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="col-md-10">
+                                    <label class="col-md-4" id="action" style="padding:initial;margin-right: -8px;">Action</label>
+                                    <div class="input-group form-group col-md-8">
+                                        @Html.DropDownListFor(x => x.Action, null, "--- Select ---", new { @class = "form-control select2", required = "required", @Value = ViewBag.ReportingTo })
+                                        @Html.ValidationMessageFor(x => x.Action)
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="row col-md-12" style="text-align:end">
+                                    <div class="col-md-9" style=" text-align:right;overflow:hidden">
+                                        <input type="image" id="myimage" src="~/Images/checked.png" style="width:60px;" />
+                                        <input type="image" id="nxtimage" src="~/Images/Icons/next.png" style="width:50px;" />
+                  
+                                    </div>
+                                </div>
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var loadInfo = {
+                FileNo: "",
+                RefNo: "",
+                subject: "",
+                Description: "",
+                Note: "",
+                Date: "",
+                reporting: ""
+                //LastUpdDate: "",
+                //UpdUserID: "",
+                //VersionNo:""
+            };
+            function setOrder() {
+                loadInfo.FileNo = $("#FileNo").val();
+                loadInfo.RefNo = $("#RefNo").val();
+                loadInfo.subject = $("#subject").val();
+                loadInfo.Description = $("#Description").val();
+                loadInfo.Note = $("#Note").val();
+                loadInfo.Date = $("#Date").val();
+                loadInfo.reporting = $("#reporting").val();
+                //  loadInfo.LastUpdDate = $("#LastUpdDate").val();
+                //  loadInfo.UpdUserID = $("#UpdUserID").val();
+                // loadInfo.VersionNo = $("#VersionNo").val();
+            }
+            $(document).on("click", "#myimage", function () {
+                //setOrder();
+                var fMain = {
+                    FileNo: "", RefNo: "", subject: "", Description: "", Note: "", Date: "", reporting: "", AttachFile: ""
+                }
+
+                fMain.FileNo = $("#FileNo").val();
+                fMain.RefNo = $("#RefNo").val();
+                fMain.subject = $("#subject").val();
+                fMain.Description = $("#Description").val();
+                fMain.Note = $("#Note").get(0).files;
+                fMain.Date = $("#Date").val();
+                fMain.reporting = $("#reporting").get(0).files;
+
+                var Photofile = $("#AttachFile").get(0).files;
+                var data = new FormData();
+                for (var i = 0; i < Photofile.length; i++) {
+                    data.append("PhotoFile", Photofile[i]);
+                }
+                data.append("fMain", JSON.stringify({ fMain: fMain }));
+                $.ajax({
+                    url: '@Url.Action("SaveFileProcessAction", "ProcessAction")',
+                    contentType: false,
+                    data: data,
+                    type: 'POST',
+                    processData: false,
+                    success: function (datas) {
+                        if (datas == 1) {
+                            swal({
+                                title: "Ok",
+                                text: "Successfully Saved!",
+                                type: "success",
+                                closeOnConfirm: true
+                            },
+
+                            function () {
+                                //location.reload();
+                                clearReceive();
+                            });
+                        }
+                        else if (datas == "X") {
+                            swal({
+                                title: "Sorry",
+                                text: "No Save Permission for this User",
+                                type: "warning"
+                            });
+                        }
+                        else if (datas == 0) {
+                            swal(
+                                'Sorry!',
+                                'All (*) field are required. These Fields can not be empty!!!',
+                                'warning'
+                            );
+                            $("#save").prop("disabled", false);
+                        }
+                        else if (data == 2) {                           //save  data
+                            swal({
+                                title: "Sorry!",
+                                text: "Data Already Exists",
+                                type: "warning"
+                            });
+                        }
+
+                            //});
+
+                            //}
+                        else {
+                            swal(
+                                'Sorry!',
+                                'Please Add item in the Table.!!!',
+                                'warning'
+                                );
+                        }
+                    }//success
+                });//ajax
+            });
+        });//readyfunction
+    </script>
+}
+
+
+
+
+
+
+
+
+

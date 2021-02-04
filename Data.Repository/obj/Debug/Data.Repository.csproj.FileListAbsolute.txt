@@ -1,0 +1,1026 @@
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Top Up 17 web\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Rokive All Update Solution\shah cement\TopUpWebAndAPI\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\March - 07-2017\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Main\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\System.Web.Mvc.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\bin\Debug\System.Web.Mvc.xml
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+F:\Project\office\Shah\Main\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\March 11 2017\ShahcementWeb\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+E:\All Subversion Project\Shah\Main\TopUpWeb\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\ShahCementUpdate\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Post Office\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Post Office-Cost\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\PostOffice-IPA\PostOffice\trunk\ShahcementWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\PostOffice-IPA\PostOffice\trunk\IpaWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\IPA\trunk\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\IPA\trunk\IpaWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\IPA\trunk\IpaWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\IPA\trunk\IpaWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\Tahsin Agro\IpaWeb\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Others Project\Tahsin Agro\Web Project\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\Projects\Tahsin Agro(1)\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\NationalTea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\Documents\NationalTea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\National Tea\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\System.Web.Mvc.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\System.Web.Mvc.xml
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+F:\New folder\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Mukta\NationalTeaNew\National Tea\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\National Tea 160418\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Farhad 28-10-18\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Farhad\ASPL\ASPL 20-09-18\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Farhad\ASPL\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Farhad\ASPL\ASPL 28\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Farhad\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+F:\Farhad\ASPL\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+F:\Uttam\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+F:\Uttam_Handover\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+\\DEV_6\share_Ashik\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Nasir\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\System.Web.Mvc.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\NTC CustVisit\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Nimuna Manzoor\12-04-2019\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Demo\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\App.Domain.pdb
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Data.Context.pdb
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Demo41220\Demo\trunk\NationalTea\Data.Repository\obj\Debug\Data.Repository.pdb
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Farhad\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Farhad\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+F:\Farhad\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+F:\Farhad\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+D:\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+D:\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+D:\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+D:\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+D:\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+D:\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+D:\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+D:\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+C:\Anna Share\UpdatedProject6162020\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\Thursday\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Work\Thursday\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+C:\Work\Thursday\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+C:\Work\Thursday\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+C:\Work\ProcessAuto\PA\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+C:\Work\Project\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+C:\Work\Friday\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Share\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+D:\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+E:\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\obj\Debug\Data.Repository.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll.config
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Repository.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\System.Web.Mvc.dll
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\App.Domain.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Data.Context.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.xml
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Project\ProcessAutomation\ERPConfiguration\Data.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml

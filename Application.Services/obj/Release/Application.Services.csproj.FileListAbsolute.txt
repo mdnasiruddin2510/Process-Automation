@@ -1,0 +1,263 @@
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Application.Services.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Application.Services.pdb
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\App.Domain.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Application.Interfaces.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Data.Context.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\EntityFramework.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\App.Domain.pdb
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Data.Context.pdb
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\EntityFramework.xml
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\EntityFramework.SqlServer.xml
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\obj\Release\Application.Services.dll
+D:\PostOffice\trunk\ShahcementWeb\Application.Services\obj\Release\Application.Services.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Services.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Services.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\App.Domain.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Interfaces.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Data.Context.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\App.Domain.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Data.Context.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.xml
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.SqlServer.xml
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\obj\Release\Application.Services.dll
+D:\Mukta\Tahsin Agro\trunk\Tahsin Agro\Application.Services\obj\Release\Application.Services.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Services.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Services.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\App.Domain.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Interfaces.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Data.Context.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\App.Domain.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Data.Context.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.xml
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\EntityFramework.SqlServer.xml
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\obj\Release\Application.Services.dll
+D:\Mukta\Projects\TahsinAgroProject\Tahsin Agro\trunk\Tahsin Agro\Application.Services\obj\Release\Application.Services.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+E:\National Tea\National Tea\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\System.Web.Mvc.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+F:\New folder\National Tea\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\National Tea 160418\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\National Tea 160418\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\National Tea 160418\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+D:\National Tea 160418\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+D:\NT\ASPL 20-09-18\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+D:\Farhad 28-10-18\ASPL 20-09-18\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+D:\Farhad 06032019\Farhad\ASPL\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+F:\Farhad\ASPL\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+F:\Uttam\Demo\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Services.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Services.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\App.Domain.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Data.Context.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\App.Domain.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Data.Context.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\obj\Release\Application.Services.dll
+D:\Nimuna Manzoor\01-13-2020\Demo\Demo\trunk\NationalTea\Application.Services\obj\Release\Application.Services.pdb
+D:\ERPConfiguration\Application.Services\bin\Release\Application.Services.dll
+D:\ERPConfiguration\Application.Services\bin\Release\Application.Services.pdb
+D:\ERPConfiguration\Application.Services\bin\Release\App.Domain.dll
+D:\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.dll
+D:\ERPConfiguration\Application.Services\bin\Release\Data.Context.dll
+D:\ERPConfiguration\Application.Services\bin\Release\EntityFramework.dll
+D:\ERPConfiguration\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\ERPConfiguration\Application.Services\bin\Release\App.Domain.pdb
+D:\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\ERPConfiguration\Application.Services\bin\Release\Data.Context.pdb
+D:\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\ERPConfiguration\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\ERPConfiguration\Application.Services\obj\Release\Application.Services.dll
+D:\ERPConfiguration\Application.Services\obj\Release\Application.Services.pdb
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Services.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Services.pdb
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\App.Domain.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Data.Context.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\EntityFramework.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\App.Domain.pdb
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.pdb
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Data.Context.pdb
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+D:\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.dll
+D:\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Services.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Services.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\App.Domain.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Data.Context.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\EntityFramework.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\App.Domain.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Data.Context.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.dll
+E:\Share\ForChange\WebSite\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.pdb
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Services.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Services.pdb
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\App.Domain.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Data.Context.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\EntityFramework.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\EntityFramework.SqlServer.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\App.Domain.pdb
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Application.Interfaces.pdb
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Data.Context.pdb
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+E:\ProcessAutomation\ERPConfiguration\Application.Services\bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.csprojResolveAssemblyReference.cache
+E:\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.dll
+E:\ProcessAutomation\ERPConfiguration\Application.Services\obj\Release\Application.Services.pdb

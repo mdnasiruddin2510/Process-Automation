@@ -1,0 +1,272 @@
+﻿@model App.Domain.ViewModel.NewFile 
+@{
+    ViewBag.Title = "NewFile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .image-upload > input {
+        display: none;
+        text-align: right;
+    }
+    .image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
+</style>
+<link href="~/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+<link href="~/App_Themes/Theme1/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+<link href="~/App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+<link href="~/App_Themes/Theme1/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+<link href="~/Css/FormDesign.css" rel="stylesheet" />
+@using (Html.BeginForm())
+{
+
+    @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+   <div class="row">
+        <div class="col-md-11">
+            <div class="panel panel-color panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <text style="text-align:left !important; text-decoration: none;" id="lblOpenFile">Open a New File</text>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="input-group form-group col-md-12">
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-9">
+                            <div class="col-md-10">
+                                <label class="col-md-3" id="lblFileNo" style="padding:initial;margin-right: -8px;" >@*File No*@</label>
+                                <div class="input-group form-group col-md-6">
+                                    <input type="text" class="form-control" id="FileID" name="FileID" value="@ViewBag.FileId" , required="required" />
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <label class="col-md-3" id="lblRefNo" style="padding:initial;margin-right: -8px;">@*Ref No*@</label>
+                                <div class="input-group form-group col-md-6">
+                                    <input type="text" class="form-control" id="FileRef" name="FileRef" value="@ViewBag.FileRef" , required="required" />
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <label class="col-md-3" id="lblSubject" style="padding:initial;margin-right: -8px;">@*Subject*@</label>
+                                <div class="input-group form-group col-md-6">
+                                    <input type="text" class="form-control" id="FileSub" name="FileSub" value="@ViewBag.FileSub" , required="required" />
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <label class="col-md-3" id="lblDescription" style="padding:initial;margin-right: -8px;">Description</label>
+                                <div class="input-group form-group col-md-6">
+                                    <textarea type="text" class="form-control" id="FileText" name="FileText" value="@ViewBag.FileText" ,required="required"></textarea>
+                                </div>
+                            </div>                          
+                            <div class="col-md-10">
+                                <label class="col-md-3" id="lblAttachment">Attachment</label>
+                                <div class="col-md-10">
+                                    <input type="file" multiple="multiple" id="@Html.IdFor(x => x.AttachFile)" required="required" style="display: !important; font: inherit !important">
+                                    @*@Html.TextBoxFor(ViewModel => ViewModel.AttachFile, "", new { @type = "file", @class = "image-upload" })@*, @multiple = "multiple"*@
+                                    @Html.ValidationMessageFor(ViewModel => ViewModel.AttachFile, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="row col-md-12" style="text-align:end">
+                                <div class="col-md-9" style=" text-align:right;overflow:hidden">
+                                    <img id="myimageNewFileSave" src="~/Images/checked.png" width="60" />
+                                    @*<input type="image" id="myimageNewFileSave" src="~/Images/checked.png" style="width:60px;" />*@
+                                    <a href='@Url.Action("Index", "Home")'>
+                                        <img src='@Url.Content("~/Images/Icons/next.png")' width="50" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+  
+@section scripts{
+    <script src="~/App_Themes/Theme1/plugins/select2/select2.min.js" type="text/javascript"></script>
+    <script src="~/App_Themes/Theme1/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.bootstrap.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/pdfmake.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/vfs_fonts.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.html5.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/buttons.print.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.keyTable.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/responsive.bootstrap.min.js"></script>
+    <script src="../App_Themes/Theme1/plugins/datatables/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../App_Themes/Theme1/plugins/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../App_Themes/Theme1/blue/assets/pages/datatables.init.js"></script>
+    
+    <script>
+        
+
+        $(document).ready(function () {
+            var loadInfo = {
+                FileID: "",
+                FileRef: "",
+                FileSub: "",
+                FileText: ""
+                // AttachNum: ""
+                //CreateDate: "",
+                //UserID: "",
+                //LastUpdDate: "",
+                //UpdUserID: "",
+                //VersionNo:""
+
+            };
+            @*if ('@ViewBag.Lang' == 'True') {
+               
+            }*@
+            GetPhraseList();
+            function setOrder() {
+                loadInfo.FileID = $("#FileID").val();
+                loadInfo.FileRef = $("#FileRef").val();
+                loadInfo.FileSub = $("#FileSub").val();
+                loadInfo.FileText = $("#FileText").val();
+                // loadInfo.AttachNum = $("#AttachNum").val();
+                // loadInfo.CreateDate = $("#CreateDate").val();
+                // loadInfo.UserID = $("#UserID").val();
+                //  loadInfo.LastUpdDate = $("#LastUpdDate").val();
+                //  loadInfo.UpdUserID = $("#UpdUserID").val();
+                // loadInfo.VersionNo = $("#VersionNo").val();
+
+            }
+
+            $(document).on("click", "#myimageNewFileSave", function () {
+                //setOrder();
+                var fMain = {
+                    FileID: "", FileRef: "", FileSub: "", FileText: "", AttachFile: ""
+                }
+
+                fMain.FileID = $("#FileID").val();
+                fMain.FileRef = $("#FileRef").val();
+                fMain.FileSub = $("#FileSub").val();
+                fMain.FileText = $("#FileText").val();
+                fMain.AttachFile = $("#AttachFile").get(0).files;
+
+                var Photofile = $("#AttachFile").get(0).files;
+                var data = new FormData();
+                for (var i = 0; i < Photofile.length; i++) {
+                    data.append("PhotoFile", Photofile[i]);
+                }
+                data.append("fMain", JSON.stringify({ fMain: fMain }));
+                $.ajax({
+                    url: '@Url.Action("SaveNewFile", "NewFile")',
+                    contentType: false,
+                    data: data,
+                    type: 'POST',
+                    processData: false,
+                    success: function (datas) {
+                        if (datas == 1) {
+                            swal({
+                                title: "Ok",
+                                text: "Successfully Saved!",
+                                type: "success",
+                                closeOnConfirm: true
+                            },
+
+                            function () {
+                                location.reload();
+                                clearReceive();
+                                //loadGroupWiseData();
+                            });
+
+                        }
+
+                        else if (datas == "X") {
+                            swal({
+                                title: "Sorry",
+                                text: "No Save Permission for this User",
+                                type: "warning"
+                            });
+                        }
+                        else if (datas == 0) {
+                            swal(
+                                'Sorry!',
+                                'All (*) field are required. These Fields can not be empty!!!',
+                                'warning'
+                            );
+                            $("#save").prop("disabled", false);
+                        }
+                        else if (datas == 2) {                           //save  data
+                            swal({
+                                title: "Sorry!",
+                                text: "Data Already Exists",
+                                type: "warning"
+                            });
+                        }
+
+                            //});
+
+                            //}
+                        else {
+                            swal(
+                                'Sorry!',
+                                'Please Add item in the Table.!!!',
+                                'warning'
+                                );
+                        }
+                    }//success
+                });//ajax
+                //}//if (orders != 0) {
+
+            });
+            //////////////////////////////////////////////////
+           
+            //$('#nxtimage').on('click', function () {
+            //    window.location.hash = '~/Views/Home/Index.cshtml';
+            //});
+            ///////////////////////////Edit//////////////////
+                          
+                $.ajax({
+                    url: '@Url.Action("GetNewFileIdforEdit", "NewFile")',
+                 
+                    type: 'get',
+                    dataType: 'json',
+                    success: function (datas) {                                           
+                        $("#FileID").val(datas.FileMainAdd.FileID);
+                        $("#FileRef").val(datas.FileMainAdd.FileRef);
+                        $("#FileSub").val(datas.FileMainAdd.FileSub);
+                        $("#FileText").val(datas.FileMainAdd.FileText);
+                        $("#btnupdate").show();
+                        $("#btnadd").hide();                                              
+                    }
+                });          
+         
+            ////////////////////////////////////LebelDynamic//////////////////////////////////////          
+            
+
+            function GetPhraseList() {
+                $.ajax({
+                    url: '@Url.Action("GetAllPhrases", "Language", new { Id = "1002" })',
+                    contentType: "application/json;charset=utf-8",
+                    data: {},
+                    type: "GET",
+                    dataType: 'json',
+                    success: function (data) {
+                        $("#lblOpenFile").html(data[0]);
+                        $("#lblFileNo").html(data[1]);
+                        $("#lblRefNo").html(data[2]);
+                        $("#lblSubject").html(data[3]);
+                        $("#lblDescription").html(data[4]);
+                        $("#lblAttachment").html(data[5]);
+                    }
+                });
+            }
+        });//readyfunction
+    </script>
+    }
+

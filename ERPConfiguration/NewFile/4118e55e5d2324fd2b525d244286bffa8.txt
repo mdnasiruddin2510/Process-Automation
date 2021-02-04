@@ -1,0 +1,43 @@
+
+Delete from CashOperation
+DBCC CHECKIDENT('CashOperation', RESEED, 1)
+Delete from BankOperation
+DBCC CHECKIDENT('BankOperation', RESEED, 1)
+truncate table BankReceipt
+delete from CashReceipt
+truncate table cashreceiptsubdetails
+truncate table ChequeReceipt
+truncate table ChequeReceiptExt
+truncate table ChequeArchive
+truncate table moneyReceipt
+truncate table moneyReceiptExt
+truncate table deposit
+delete from expense
+truncate table expenseSubdetails
+truncate table horemit
+truncate table Payment
+truncate table transactionlog
+truncate table vounoassign
+truncate table withdraw
+truncate table tmpPurItem 
+truncate table purchaseMain
+truncate table purchaseDetail
+truncate table tmpAddedItem
+delete from SalesMain
+DBCC CHECKIDENT ('SalesMain', reseed, 1)
+truncate table receiveDetails
+delete from receiveMain
+truncate table SalesDetail
+delete from IssueMain
+truncate table IssueDetails
+truncate table TVchrMain
+truncate table TVchrDetail
+delete from PVchrMain
+DBCC CHECKIDENT ('PVchrMain', reseed, 1)
+truncate table PVchrDetail
+truncate table PVchrMainExt
+truncate table PVchrTrack
+truncate table VchrMain
+truncate table VchrDetail
+truncate table VchrMainExt
+truncate table VchrTrack

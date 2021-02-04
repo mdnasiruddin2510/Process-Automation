@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4B39556-0995-444B-9223-DAF10A5BDACB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Application.Interfaces</RootNamespace>
+    <AssemblyName>Application.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Rotativa">
+      <HintPath>..\packages\Rotativa.1.6.4\lib\net40\Rotativa.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\IBasicAppService.cs" />
+    <Compile Include="Common\ICommonAppService.cs" />
+    <Compile Include="Common\IReadOnlyAppService.cs" />
+    <Compile Include="Common\ITransactionAppService.cs" />
+    <Compile Include="IStaffDetailsAppService.cs" />
+    <Compile Include="ISysSetAppService.cs" />
+    <Compile Include="IAFileMainAppService.cs" />
+    <Compile Include="IAFileDetailAppService.cs" />
+    <Compile Include="IDictionaryAppService.cs" />
+    <Compile Include="IFileProcessInfosAppService.cs" />
+    <Compile Include="IBranchAppService.cs" />
+    <Compile Include="ICompanyInfoAppService.cs" />
+    <Compile Include="IDynaCapAppService.cs" />
+    <Compile Include="IFileDetailAppService.cs" />
+    <Compile Include="IFileMainAppService.cs" />
+    <Compile Include="IPhraseAppServices.cs" />
+    <Compile Include="IStaffAppService.cs" />
+    <Compile Include="IReportingAppService.cs" />
+    <Compile Include="IBoundaryAppService.cs" />
+    <Compile Include="IActionListAppService.cs" />
+    <Compile Include="IFileTransMainAppService.cs" />
+    <Compile Include="IFileTransDetailAppService.cs" />
+    <Compile Include="ILanguagesAppService.cs" />
+    <Compile Include="ISecFormListAppService.cs" />
+    <Compile Include="ISecFormProcessAppService.cs" />
+    <Compile Include="ISecFormRightAppService.cs" />
+    <Compile Include="ISecProcessListAppService.cs" />
+    <Compile Include="ISecUserGroupAppService.cs" />
+    <Compile Include="ISecUserInfoAppService.cs" />
+    <Compile Include="ISecUserInGroupAppService.cs" />
+    <Compile Include="IEmployeeFuncAppService.cs" />
+    <Compile Include="IEmailConfigAppService.cs" />
+    <Compile Include="IEmployeeAppService.cs" />
+    <Compile Include="IFYDDAppService.cs" />
+    <Compile Include="IRecPasswordAppService.cs" />
+    <Compile Include="ITransactionLogAppService.cs" />
+    <Compile Include="IUserBranchAppService.cs" />
+    <Compile Include="IUserProfileAppService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domain\App.Domain.csproj">
+      <Project>{8c5df764-3858-4c07-9729-ab68c49ae77f}</Project>
+      <Name>App.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Context\Data.Context.csproj">
+      <Project>{71d04fa7-3424-4c8f-ba0e-018653eeb924}</Project>
+      <Name>Data.Context</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="App_Browsers\qt.browser" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Rotativa\wkhtmltopdf.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
